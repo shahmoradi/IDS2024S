@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/IDS2022F</loc>
+        <loc>/IDS2024S</loc>
     </url>
     
     
     <url>
-        <loc>/IDS2022F/404</loc>
+        <loc>/IDS2024S/404</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/about/index.html</loc>
+        <loc>/IDS2024S/about/index.html</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/categories/index.html</loc>
+        <loc>/IDS2024S/categories/index.html</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/feed.xml</loc>
+        <loc>/IDS2024S/feed.xml</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/highlights/</loc>
+        <loc>/IDS2024S/highlights/</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/</loc>
+        <loc>/IDS2024S/</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/links.jsonp</loc>
+        <loc>/IDS2024S/links.jsonp</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/search.json</loc>
+        <loc>/IDS2024S/search.json</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/sitemap.xml</loc>
+        <loc>/IDS2024S/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>/IDS2022F/tags/index.html</loc>
+        <loc>/IDS2024S/tags/index.html</loc>
     </url>
     
 
     
     <url>
-        <loc>/IDS2022F/announcement/0-student-professor-connection-day</loc>
+        <loc>/IDS2024S/announcement/0-student-professor-connection-day</loc>
     </url>
     
 </urlset>
