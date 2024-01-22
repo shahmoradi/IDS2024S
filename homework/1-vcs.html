@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="/IDS2024S/assets/js/mdHeaderCollapse.js"></script>
+-->
+
 <meta charset="utf-8">
-<title>DATA 1301 - SPRING 2024 - MW 16:00-17:20 - PKH 103 / MICROSOFT TEAMS VIRTUAL ROOM</title>
+<title>HOMEWORK 1: VERSION CONTROL USING GIT AND GITHUB &vert; DATA 1301 - SPRING 2024 - MW 16:00-17:20 - PKH 103 / MICROSOFT TEAMS VIRTUAL ROOM</title>
 <meta name="description" content="Introduction to Data Science">
-<meta name="keywords" content="Amir, Shahmoradi, Instructor">
+<meta name="keywords" content="">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room">
+<meta property="og:title" content="Homework 1: Version Control Using Git and Github">
 <meta property="og:description" content="Introduction to Data Science">
-<meta property="og:url" content="/IDS2024S/about/index.html">
+<meta property="og:url" content="/IDS2024S/homework/1-vcs">
 <meta property="og:site_name" content="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room">
 <meta property="og:image" content="/IDS2024S/images/">
 
@@ -21,7 +30,7 @@
 
 
 
-<link rel="canonical" href="/IDS2024S/about/">
+<link rel="canonical" href="/IDS2024S/homework/1-vcs">
 <!-- <link href="/IDS2024S/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room Feed"> -->
 
 
@@ -77,21 +86,16 @@ MathJax.Hub.Queue(function() {
 
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float:left;font-size:4.688rem;line-height:4.375rem;padding-top:.25rem;padding-right:.5rem;padding-left:.188rem;font-family:serif}}</style>
 </head>
-<body class="post-template page" itemscope itemtype="https://schema.org/WebPage">
+<body class="post-template" itemscope itemtype="https://schema.org/WebPage">  
 
-<main id="notepad-page-container" class="notepad-page-container" role="main">
-    
-    
-        <header class="notepad-page-header">
-            <div class="notepad-page-menu-header">
-                
-                    <a class="notepad-blog-logo" href=https://www.cdslab.org target="_blank">
-                        <img src="/IDS2024S/images/logo.png" alt="cdslab.org">
-                    </a>
-                
-                
-                
+        <main id="notepad-post-container-simple" class="notepad-post-container-simple" role="main">
+            <header class="notepad-post-header-simple">
+                <div class="notepad-post-menu-header-simple">
+
+                    <a class="notepad-blog-logo" href=https://www.cdslab.org target="_blank"><img src="/IDS2024S/images/logo.png" alt="cdslab.org" /></a>
+
                 <div class="notepad-blog-menu">      
     <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
@@ -116,101 +120,110 @@ MathJax.Hub.Queue(function() {
             <li>
                     <a href="/IDS2024S/about">About</a>
                  </li>
-
+            
            <li><a href="/IDS2024S/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
     </ul>
+
 </div>
             </div>
-            
-        </header>
 
-<article class="notepad-page-content">
-                    <div style="text-align:justify;">
-<p><br /></p>
+                <div class="notepad-post-title-simple row">
+                    <div class="small-12 columns">
+                        <div class="notepad-post-meta-simple">
+                            <h2>Homework 1: Version Control Using Git and Github</h2>
+                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2024-01-22T00:00:00-06:00">22 Jan 2024</time></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </header>
 
-<div class="post_toc"></div>
+        
+            <article class="notepad-post-content post tag-simple">
+        
+            <div style="text-align:justify;">
+                <p>♣ <strong>Due Date: Wednesday January 31, 2024 4:00 PM</strong>. This homework aims at giving you some experience on how to work with Git and GitHub.</p>
 
-<p><br /></p>
+<ol>
+  <li><a href="https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github#problem-part-1" target="_blank">Version-control using Git and GitHub <strong>ONLY part 1</strong></a>.</li>
+  <li>Name the three historical types of Version Control Systems.</li>
+  <li>Which one of the three historical types of Version Control Systems is best and why is it the best?</li>
+  <li>Briefly describe what the following git commands do.<br />
+a. <code>git pull</code><br />
+b. <code>git status</code><br />
+c. <code>git add --all</code><br />
+d. <code>git commit -m"latest build"</code><br />
+e. <code>git push --all</code></li>
+  <li>In your repository for this course on GitHub (named <code>IDS2024S</code>, standing for <strong>Introduction to Data Science 2022 Fall</strong>), create the following folders,<br />
+a. <code>hw</code><br />
+b. <code>quiz</code><br />
+c. <code>exam</code><br />
+Inside the <code>hw</code> folder, create another folder named <code>1</code>. Inside this folder create a <code>README.md</code> file containing your answers to the above questions.<br />
+<strong>Hint:</strong> You can either do the above tasks inside the local clone of your repository and <code>push</code> it to the remote copy of the repository on GitHub or, you can create all of the folders and subfolders and files on the GitHub page of your project.</li>
+</ol>
 
-<hr />
-
-<p><br /></p>
-
-<h3 id="syllabus">Syllabus</h3>
-<p>Official information and details about this course can be found in the course’s <a href="../syllabus.pdf" target="_blank">syllabus (PDF)</a>.</p>
-
-<p><br /></p>
-
-<hr />
-
-<p><br /></p>
-
-<h3 id="textbook-and-lecture-notes">Textbook and Lecture Notes</h3>
-
-<p>No specific textbook is required for this course. However, several textbooks are suggested in the course’s <a href="../syllabus.pdf" target="_blank">syllabus (PDF)</a>.</p>
-
-<p><br /></p>
-
-<hr />
-
-<p><br /></p>
-
-<h3 id="about-this-course">About this course</h3>
-
-<p><strong>DATA 1301: Introduction to Data Science (IDS)</strong> is a Data Science course offered as part of the undergraduate coursework in the College of Science and the <a href="http://www.uta.edu/data-science" target="_blank">Data Science Program</a> at <a href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a>.</p>
-
-<p>This course offers a survey of contemporary approaches to data-driven discovery and will be the critical entry point for students majoring in Data Science and will be designed to be accessible to all others interested in the modern data revolution. The course includes discussions of the ethical principles involving privacy, data security, and broader societal implications. In particular, various human and cognitive biases can affect scientific conclusions and discoveries. The fundamentals of data visualization will also be discussed. Simple statistical concepts and techniques will be addressed via simple computing tools such as Excel or programming languages like Python. An introduction to computer programming will also be given.</p>
-
-<p><br /></p>
-
-<hr />
-
-<p><br /></p>
-
-<h3 id="about-the-instructor-amir-shahmoradi">About the Instructor: Amir Shahmoradi</h3>
-
-<p>Amir Shahmoradi is a physicist by training and science-lover in general, with extensive teaching &amp; research experience and background in high energy physics, astronomy and astrophysics, theoretical physics, statistics, data analysis and modeling, computational physics, Molecular Dynamics simulations, stochastic processes, Monte Carlo Methods, Bayesian probability theory, biomedical sciences and <abbr title="Magnetic Resonance Imaging">MRI</abbr> data analysis, bioinformatics and evolutionary biology, in particular, viral evolution, protein dynamics and interactions. He can be reached via his email at <a href="mailto: shahmoradi@utexas.edu"> shahmoradi@utexas.edu</a>.</p>
-
-<figure>
-    <img src="/IDS2024S/images/about/AmirShahmoradi.png" alt="Instructor: Amir Shahmoradi" />
-    <figcaption style="text-align:center">Instructor: Amir Shahmoradi</figcaption>
-</figure>
-
-<p><br /></p>
-
-<hr />
-
-<p><br /></p>
-
-<h3 id="about-students">About Students</h3>
-
-<p>As of Monday, 22 Jan 2024 at 02:40 PM, there are 37 students enrolled in this course. Below is the latest photo of students.</p>
-
-<figure>
-	<img src="/IDS2024S/images/about/minions.jpg" alt="students" />
-    <figcaption style="text-align:center">The class participants</figcaption>
-</figure>
-
-<p><br /></p>
-
-<!-- 
-<div align="center"> <h3> UT Arlington Campus Photos </h3> </div>
-
-<figure class="third">
-	<a href="/IDS2024S/images/about/UTtowerSouthFaceEve.png"><img src="/IDS2024S/images/about/UTtowerSouthFaceEve.png"></a>
-	<a href="/IDS2024S/images/about/UTtowerSouthFace.png"><img src="/IDS2024S/images/about/UTtowerSouthFace.png"></a>
-	<a href="/IDS2024S/images/about/UTtowerNorthFace.png"><img src="/IDS2024S/images/about/UTtowerNorthFace.png"></a>
-</figure>
-<figure class="half">
-	<a href="/IDS2024S/images/about/FacultyLoungeICES.png"><img src="/IDS2024S/images/about/FacultyLoungeICES.png"></a>
-	<a href="/IDS2024S/images/about/chemistry.png"><img src="/IDS2024S/images/about/chemistry.png"></a>
-	<a href="/IDS2024S/images/about/RLM.png"><img src="/IDS2024S/images/about/RLM.png"></a>
-	<a href="/IDS2024S/images/about/UTtowerSouthFacePanoramic.png"><img src="/IDS2024S/images/about/UTtowerSouthFacePanoramic.png"></a>
-</figure>
--->
-</div>
-</article>
+            </div>
+        </article>
         <div class="cf"></div>
+<div class="row text-center">
+    <section class="notepad-post-share">
+        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Homework 1: Version Control Using Git and Github&quot;%20/IDS2024S/homework/1-vcs%20via%20&#64;"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/IDS2024S/homework/1-vcs"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+        </a>
+        
+    </section>
+</div>
+        <div class="cf"></div>
+        
+<div class="notepad-author-info">
+    <div class="row">
+        <section class="notepad-post-author small-12 columns">
+            <a href=https://www.shahmoradi.org target="_blank">
+                <img src="/IDS2024S/images/AmirShahmoradi.png" class="notepad-post-author-avatar" alt="Amir Shahmoradi's photo">
+            </a>
+            <span class="author-label">Author</span>
+            <h1>Amir Shahmoradi</h1>
+            <p><a href="mailto:shahmoradi@utexas.edu" class="author-website">shahmoradi@utexas.edu</a></p>
+            <p>Genius is 99% perspiration and 1% inspiration</p>
+        </section>
+    </div>
+</div> 
+        
+        <div class="cf"></div>
+        
+        <section class="notepad-disqus row">
+    <div class="small-12 columns">
+        <h1 class="notepad-comments-header">Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'shahmoradi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+        <div class="cf"></div>
+
     <footer class="notepad-site-footer">
     <div class="copyright">
          <!-- <section>Last updated 2024 / 01 / 22</section></br> -->
@@ -288,9 +301,8 @@ MathJax.Hub.Queue(function() {
 
     </div>
     <div class="cf"></div>
-</footer>
-</main>
-
+</footer> 
+</main>    
 <!--dynamic page header-->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="/IDS2024S/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
@@ -314,7 +326,7 @@ MathJax.Hub.Queue(function() {
 <script src="/IDS2024S/assets/js/prismTwilight.js"></script>
 <script src="/IDS2024S/assets/js/prismDefault.js"></script>
  -->
-<script src="/IDS2024S/assets/js/prismCoy.js"></script>
+<script src="/IDS2024S/assets/js/prismCoy.js"></script> 
 <!--automatic Table of Content.-->
 <script src="/IDS2024S/assets/js/autoTOC.js"></script>
 </body>

@@ -1,6 +1,30 @@
 [
 	
 		{
+		  "title"      : "Lecture 1: Scientific Computing - A Brief History and the State of the Art",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/lecture/1-programming-history",
+		  "date"       : "2024-01-22 00:00:00 -0600",
+		  "shortdate"  : "January 22, 2024"
+		} ,
+	
+		{
+		  "title"      : "Homework 1: Version Control Using Git and Github",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/homework/1-vcs",
+		  "date"       : "2024-01-22 00:00:00 -0600",
+		  "shortdate"  : "January 22, 2024"
+		} ,
+	
+		{
+		  "title"      : "Announcement 1: Assessing your programming knowledge and interests",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests",
+		  "date"       : "2024-01-17 00:00:00 -0600",
+		  "shortdate"  : "January 17, 2024"
+		} ,
+	
+		{
 		  "title"      : "Announcement 0: Student-professor connection day",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/announcement/0-student-professor-connection-day",

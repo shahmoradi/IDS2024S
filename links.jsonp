@@ -2,6 +2,21 @@
 callback([
 
   {
+    "text": "Lecture 1: Scientific Computing - A Brief History and the State of the Art",
+    "href": "/IDS2024S/lecture/1-programming-history"
+  } ,
+
+  {
+    "text": "Homework 1: Version Control Using Git and Github",
+    "href": "/IDS2024S/homework/1-vcs"
+  } ,
+
+  {
+    "text": "Announcement 1: Assessing your programming knowledge and interests",
+    "href": "/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests"
+  } ,
+
+  {
     "text": "Announcement 0: Student-professor connection day",
     "href": "/IDS2024S/announcement/0-student-professor-connection-day"
   } 

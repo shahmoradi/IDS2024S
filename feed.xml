@@ -7,13 +7,106 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-01-16T22:20:16-06:00</updated>
+<updated>2024-01-22T14:40:53-06:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2024S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 1: Scientific Computing - A Brief History and the State of the Art]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/lecture/1-programming-history"/>
+  <id>http:/IDS2024S/lecture/1-programming-history</id>
+  <published>2024-01-22T00:00:00-06:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;This lecture aims at providing a brief history of the development of computers and computer programming 
+languages and their mutual interaction with rapid developments in natural sciences in the 20th century.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html&quot; target=&quot;_blank&quot;&gt;Version Control System&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/programming-history.html&quot; target=&quot;_blank&quot;&gt;programming history&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/computer-hardware/computer-hardware.html&quot; target=&quot;_blank&quot;&gt;Computer hardware&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/computer-programming/computer-programming.html&quot; target=&quot;_blank&quot;&gt;Computer programs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/lecture/1-programming-history&quot;&gt;Lecture 1: Scientific Computing - A Brief History and the State of the Art&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on January 22, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 1: Version Control Using Git and Github]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/1-vcs"/>
+  <id>http:/IDS2024S/homework/1-vcs</id>
+  <published>2024-01-22T00:00:00-06:00</published>
+  <updated>2024-01-22T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday January 31, 2024 4:00 PM&lt;/strong&gt;. This homework aims at giving you some experience on how to work with Git and GitHub.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github#problem-part-1&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub &lt;strong&gt;ONLY part 1&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Name the three historical types of Version Control Systems.&lt;/li&gt;
+  &lt;li&gt;Which one of the three historical types of Version Control Systems is best and why is it the best?&lt;/li&gt;
+  &lt;li&gt;Briefly describe what the following git commands do.&lt;br /&gt;
+a. &lt;code&gt;git pull&lt;/code&gt;&lt;br /&gt;
+b. &lt;code&gt;git status&lt;/code&gt;&lt;br /&gt;
+c. &lt;code&gt;git add --all&lt;/code&gt;&lt;br /&gt;
+d. &lt;code&gt;git commit -m&quot;latest build&quot;&lt;/code&gt;&lt;br /&gt;
+e. &lt;code&gt;git push --all&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;In your repository for this course on GitHub (named &lt;code&gt;IDS2024S&lt;/code&gt;, standing for &lt;strong&gt;Introduction to Data Science 2022 Fall&lt;/strong&gt;), create the following folders,&lt;br /&gt;
+a. &lt;code&gt;hw&lt;/code&gt;&lt;br /&gt;
+b. &lt;code&gt;quiz&lt;/code&gt;&lt;br /&gt;
+c. &lt;code&gt;exam&lt;/code&gt;&lt;br /&gt;
+Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;code&gt;1&lt;/code&gt;. Inside this folder create a &lt;code&gt;README.md&lt;/code&gt; file containing your answers to the above questions.&lt;br /&gt;
+&lt;strong&gt;Hint:&lt;/strong&gt; You can either do the above tasks inside the local clone of your repository and &lt;code&gt;push&lt;/code&gt; it to the remote copy of the repository on GitHub or, you can create all of the folders and subfolders and files on the GitHub page of your project.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/1-vcs&quot;&gt;Homework 1: Version Control Using Git and Github&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on January 22, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Announcement 1: Assessing your programming knowledge and interests]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests"/>
+  <id>http:/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests</id>
+  <published>2024-01-17T00:00:00-06:00</published>
+  <updated>2024-01-17T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;The goal of this survey is to assess your prior programming experience and to identify the favorite programming language for this class, as well as the language that your advisor deems essential for your research. 
+Ask Amir to send you a link to the survey if you have not already received it.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests&quot;&gt;Announcement 1: Assessing your programming knowledge and interests&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on January 17, 2024.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
