@@ -11,7 +11,7 @@
 -->
 
 <meta charset="utf-8">
-<title>HOMEWORK 1: VERSION CONTROL USING GIT AND GITHUB &vert; DATA 1301 - SPRING 2024 - MW 16:00-17:20 - PKH 103 / MICROSOFT TEAMS VIRTUAL ROOM</title>
+<title>QUIZ 1: VERSION CONTROL SYSTEMS &vert; DATA 1301 - SPRING 2024 - MW 16:00-17:20 - PKH 103 / MICROSOFT TEAMS VIRTUAL ROOM</title>
 <meta name="description" content="Introduction to Data Science">
 <meta name="keywords" content="">
 
@@ -20,9 +20,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Homework 1: Version Control Using Git and Github">
+<meta property="og:title" content="Quiz 1: Version Control Systems">
 <meta property="og:description" content="Introduction to Data Science">
-<meta property="og:url" content="/IDS2024S/homework/1-vcs">
+<meta property="og:url" content="/IDS2024S/quiz/1-intro-vcs">
 <meta property="og:site_name" content="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room">
 <meta property="og:image" content="/IDS2024S/images/">
 
@@ -30,7 +30,7 @@
 
 
 
-<link rel="canonical" href="/IDS2024S/homework/1-vcs">
+<link rel="canonical" href="/IDS2024S/quiz/1-intro-vcs">
 <!-- <link href="/IDS2024S/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room Feed"> -->
 
 
@@ -130,8 +130,8 @@ MathJax.Hub.Queue(function() {
                 <div class="notepad-post-title-simple row">
                     <div class="small-12 columns">
                         <div class="notepad-post-meta-simple">
-                            <h2>Homework 1: Version Control Using Git and Github</h2>
-                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2024-01-22T00:00:00-06:00">22 Jan 2024</time></strong></p>
+                            <h2>Quiz 1: Version Control Systems</h2>
+                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2024-02-12T00:00:00-06:00">12 Feb 2024</time></strong></p>
                         </div>
                     </div>
                 </div>
@@ -141,32 +141,158 @@ MathJax.Hub.Queue(function() {
             <article class="notepad-post-content post tag-simple">
         
             <div style="text-align:justify;">
-                <p>♣ <strong>Due Date: Monday Feb 12, 2024 4:00 PM</strong>. This homework aims at giving you some experience on how to work with Git and GitHub.</p>
+                <!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target="_blank"}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+<figure>
+    <img src="/IDS2024S/quiz/gradeDist/gradeHistQuiz1.png" width="700">
+    <figcaption style="text-align:center">
+        Maximum possible points is 1.
+    </figcaption>
+</figure>
+-->
+
+<p>This quiz aims at testing your basic knowledge of Version Control System and some topics discussed in the history of Data Science. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to <strong>quiz/1/</strong> folder in your Github project.</p>
+
+<p><strong>This quiz is open-lecture</strong>, however, you are <strong>not</strong> allowed to consult other resources or people.<br />
+Despite the length of the quiz, many of the answers are brief, sometimes a simple <code>YES</code> or <code>NO</code>, 
+so do not elaborate excessively on a particular question. Instead, try to answer all question briefly and correctly.</p>
+
+<p>You have the entire class time to submit your answers for this quiz.<br />
+Ensure you stage and commit all your answers to your GitHub account in the right location for quiz 1.<br />
+GitHub automatically stamps all your submissions with time up to seconds.<br />
+Late submissions as evidenced by the GitHub stamps for the commit time will not count.<br />
+So, ensure to submit your work before the official end of class time.</p>
+
+<h2><br /></h2>
+<hr />
+<p><br /></p>
 
 <ol>
-  <li><a href="https://www.cdslab.org/recipes/programming/vcs-git-github-setup/vcs-git-github-setup" target="_blank">Setting up Git Software and Connecting it to your GitHub Account</a>.</li>
-  <li><a href="https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github#problem-part-1" target="_blank">Version-control using Git and GitHub <strong>ONLY part 1</strong></a>.</li>
-  <li>Name the three historical types of Version Control Systems.</li>
-  <li>Which one of the three historical types of Version Control Systems is best and why is it the best?</li>
-  <li>Briefly describe what the following git commands do.<br />
-a. <code>git pull</code><br />
-b. <code>git status</code><br />
-c. <code>git add --all</code><br />
-d. <code>git commit -m"latest build"</code><br />
-e. <code>git push --all</code></li>
-  <li>In your repository for this course on GitHub (named <code>IDS2024S</code>, standing for <strong>Introduction to Data Science 2024 Spring</strong>), create the following folders,<br />
-a. <code>hw</code><br />
-b. <code>quiz</code><br />
-c. <code>exam</code><br />
-Inside the <code>hw</code> folder, create another folder named <code>1</code>. Inside this folder create a <code>README.md</code> file containing your answers to the above questions.<br />
-<strong>Hint:</strong> You can either do the above tasks inside the local clone of your repository and <code>push</code> it to the remote copy of the repository on GitHub or, you can create all of the folders and subfolders and files on the GitHub page of your project.</li>
-  <li>(<strong>Optional, extra point</strong>)
+  <li>Create a <code>README.md</code> within a subfolder named <code>1</code> within the <code>quiz</code> folder that you have already created in your GitHub project as part of homework 1. 
+This <code>README.md</code> file will contain the rest of your answers to the following questions.<br />
+Once you write your answers to all questions in this file, <strong>commit</strong> this file to your GitHub project before quiz ends at the end of the class time.<br />
+Tips for quiz submission:<br />
+You can take two different approaches to creating the README.md file for this quiz that will reside in the <code>quiz/1/</code> of your <code>IDS2024S</code> GitHub project.
+    <ul>
+      <li>You can create the <code>quiz/1/README.md</code> file on your GitHub project page account in your browser.<br />
+This is the recommended approach if you still do not feel comfortable using the Git Bash command line.<br />
+<strong>WARNING</strong><br />
+In this case, just like how you created your <code>README.md</code> file for the front page of your GitHub project,
+make sure to <strong>commit</strong> all your changes to your quiz README file <strong>before</strong> leaving the page.<br />
+If you fail to commit the quiz README file (containing your quiz answers) before leaving the edit page, 
+you will lose all your answers and I will have nothing to grade.<br />
+If you are in doubt, get help from Nicholas or me.</li>
+      <li>You can make the <code>./quiz/1/README.md</code> file in the clone of your <code>IDS2024S</code> project that we created in class on Wednesday.<br />
+Then add all your answers in the file, then stage and commit the file to your project on the Git Bash command line,
+then push the changes to your project on GitHub just like how we did it in class on Wednesday.<br />
+This is the recommended approach if you already feel comfortable using the Git Bash command line.<br />
+<br /></li>
+    </ul>
+  </li>
+  <li>
+    <p>Recall from our lectures that we typically name our read-me files <code>README.md</code> on GitHub.<br />
+What does <code>.md</code> stand for? Why we do prefer to use <code>.md</code> extension for README files on GitHub?</p>
+  </li>
+  <li>
+    <p>Does the <code>git</code> software index and track <strong>empty</strong> folders in your project?</p>
+  </li>
+  <li>
+    <p>Does every Git project have a <code>.git</code> folder?</p>
+  </li>
+  <li>
+    <p>What is the purpose of the <code>.git</code> folder in Git projects?</p>
+  </li>
+  <li>
+    <p>What does the Linux Bash command <code>cd</code> do? (<strong>Hint:</strong> See the Linux cheatsheet in the lecture notes)</p>
+  </li>
+  <li>
+    <p>What does the Linux Bash command <code>ls -a</code> do?  (<strong>Hint:</strong> See the Linux cheatsheet in the lecture notes)</p>
+  </li>
+  <li>
+    <p>What does the Linux Bash command <code>pwd</code> do?</p>
+  </li>
+  <li>
+    <p>Name and briefly describe the three different areas in a Git project.</p>
+  </li>
+  <li>
+    <p>What is a Version Control System (VCS)? A brief explanation is enough.</p>
+  </li>
+  <li>
+    <p>Name 6 major benefits of using <em>distributed</em> VCS as opposed to not using any VCS at all for project indexing and maintenance.</p>
+  </li>
+  <li>
+    <p>Name the three major historical classes of VCS.</p>
+  </li>
+  <li>
+    <p>What is Git and how is it different from GitHub?</p>
+  </li>
+  <li>
+    <p>What does <code>git status</code> command do?</p>
+  </li>
+  <li>
+    <p>What does <code>git push --all</code> command do?</p>
+  </li>
+  <li>
+    <p>What does <code>git pull</code> command do?</p>
+  </li>
+  <li>
+    <p>What is Markdown? (A brief answer is sufficient)</p>
+  </li>
+  <li>
+    <p>How do you make a text boldface in Markdown? (<strong>Hint:</strong> Read the Markdown cheatsheet in the lecture notes)</p>
+  </li>
+  <li>
+    <p>How do you make a text italic in Markdown? (<strong>Hint:</strong> Read the Markdown cheatsheet in the lecture notes)</p>
+  </li>
+  <li>
+    <p>What is the Git command to initialize an empty git project on your local system?</p>
+  </li>
+  <li>
+    <p>What do <code>.</code> and <code>..</code> mean in directory path names (For example, in <code>./README.md</code> and <code>../README.md</code>?</p>
+  </li>
+  <li>The following steps will guide you to create an empty Git project using the terminal (on macOS / Linux) or Git Bash environment (on Windows).<br />
+If you have not set up Git on your system in class before, <a href="https://www.cdslab.org/recipes/programming/vcs-git-github-setup/vcs-git-github-setup" target="_blank">here is your last chance</a> to do so.
     <ol>
-      <li>Make a website for your GitHub account (we did this in class).</li>
-      <li>Explain the meaning of <code>https</code> in your website address.</li>
-      <li>Explain the meaning of relative vs. absolute path.</li>
+      <li>Open your terminal (on Linux or macOS) or Git Bash (<strong>NOT Windows CMD or PowerShell</strong>) on Windows.</li>
+      <li>Navigate to your home directory and type the command that shows the path to the current directory on the command line (Hint: Recall the Linux commands to achieve this from our classes or the cheatsheets.)</li>
+      <li>Select the commands that you have types and the commands output from the command line and paste it into your README.md file for this quiz in the section for this question.<br />
+(Hint: You can select text with your mouse, then right click and look for <strong>copy</strong> option, or alternatively, press <code>ctrl</code> + <code>insert</code> keys together to copy the selected text.)</li>
+      <li>Create a new folder named <code>testdir</code> in your home directory (where you are).<br />
+(Hint: Recall the Linux command for making directories.)<br />
+Copy the command and its output again to the README.md file you have created for the quiz.</li>
+      <li>Change directory to <code>testdir</code>. (Hint: Recall the command to change directory from the Linux cheatsheet and our class)</li>
+      <li>Is this folder <code>testdir</code> already a git repository? Why? Can you prove your answer with the command <code>ls -a</code> (What does this command do?)</li>
+      <li>If your answer to the above is <strong>YES</strong>, then you can safely skip this part.<br />
+If your answer is <strong>NO</strong>, then how would you make this folder a Git project? (Hint: What is the right git command to achieve this?)</li>
+      <li>Recall the <code>vim</code> software from our lectures and classes. What does it do?<br />
+Using <code>vim</code> create a <code>README.md</code> file and type <code>This is a README.md file for the test git project of quiz1</code>.<br />
+How do you save the contents of this file using <code>vim</code> and quit the <code>vim</code> environment? (Hint: Again remember our class discussion and lectures)</li>
+      <li>Once you are out of the vim environment, type <code>cat README.md</code> on the command line and press <code>Enter</code> key.<br />
+What do you see? Copy and paste this command and its output to as answer to this section of your quiz1 README.md file.</li>
+      <li>How would you check the status of your test Git project that you have created in this folder?<br />
+Paste the git command and its output as your answer to this question in your quiz README.md file.</li>
+      <li>If you see no changes, you can skip this question.<br />
+If you see changes in your git project from the step above, how would you <strong>stage</strong> and <strong>commit</strong> those changes to your test project on the command line?<br />
+Type those two (or both in one) commands in the terminal and copy/paste the output to your quiz1 README file.</li>
+      <li>Check the status of your test project one more time on the command line.<br />
+Copy/paste the command and its output to your quiz1 README file.</li>
+      <li>Now type the following command exactly as is in your terminal and press <code>Enter</code>.
+        <pre><code class="language-bash">cd &amp;&amp; rm -rf ./testdir
+</code></pre>
+        <p>Explain what you just accomplished with the above command?  What does <code>-rf</code> do in the above command?<br />
+(Hint: <code>&amp;&amp;</code> means perform the first command and if successful, then perform the command that follows <code>&amp;&amp;</code>.)</p>
+      </li>
     </ol>
   </li>
+  <li>
+    <p><strong>Extra Credit.</strong> What is the difference between a relative and an absolute file path?<br />
+Which one is more appropriate to use in your GitHub projects? Why?</p>
+  </li>
+  <li><strong>Extra Credit.</strong> Write down the Git command that lists all Git commands for you (<strong>Hint:</strong> See the lecture notes)</li>
 </ol>
 
 
@@ -175,11 +301,11 @@ Inside the <code>hw</code> folder, create another folder named <code>1</code>. I
         <div class="cf"></div>
 <div class="row text-center">
     <section class="notepad-post-share">
-        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Homework 1: Version Control Using Git and Github&quot;%20/IDS2024S/homework/1-vcs%20via%20&#64;"
+        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Quiz 1: Version Control Systems&quot;%20/IDS2024S/quiz/1-intro-vcs%20via%20&#64;"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
             <i class="fa fa-twitter"></i>
         </a>
-        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/IDS2024S/homework/1-vcs"
+        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/IDS2024S/quiz/1-intro-vcs"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
             <i class="fa fa-facebook"></i>
         </a>

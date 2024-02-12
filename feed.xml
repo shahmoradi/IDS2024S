@@ -7,13 +7,187 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-02-12T00:03:43-06:00</updated>
+<updated>2024-02-12T15:56:30-06:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2024S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 1: Version Control Systems]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/quiz/1-intro-vcs"/>
+  <id>http:/IDS2024S/quiz/1-intro-vcs</id>
+  <published>2024-02-12T00:00:00-06:00</published>
+  <updated>2024-02-12T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/IDS2024S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Version Control System and some topics discussed in the history of Data Science. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to &lt;strong&gt;quiz/1/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This quiz is open-lecture&lt;/strong&gt;, however, you are &lt;strong&gt;not&lt;/strong&gt; allowed to consult other resources or people.&lt;br /&gt;
+Despite the length of the quiz, many of the answers are brief, sometimes a simple &lt;code&gt;YES&lt;/code&gt; or &lt;code&gt;NO&lt;/code&gt;, 
+so do not elaborate excessively on a particular question. Instead, try to answer all question briefly and correctly.&lt;/p&gt;
+
+&lt;p&gt;You have the entire class time to submit your answers for this quiz.&lt;br /&gt;
+Ensure you stage and commit all your answers to your GitHub account in the right location for quiz 1.&lt;br /&gt;
+GitHub automatically stamps all your submissions with time up to seconds.&lt;br /&gt;
+Late submissions as evidenced by the GitHub stamps for the commit time will not count.&lt;br /&gt;
+So, ensure to submit your work before the official end of class time.&lt;/p&gt;
+
+&lt;h2&gt;&lt;br /&gt;&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a &lt;code&gt;README.md&lt;/code&gt; within a subfolder named &lt;code&gt;1&lt;/code&gt; within the &lt;code&gt;quiz&lt;/code&gt; folder that you have already created in your GitHub project as part of homework 1. 
+This &lt;code&gt;README.md&lt;/code&gt; file will contain the rest of your answers to the following questions.&lt;br /&gt;
+Once you write your answers to all questions in this file, &lt;strong&gt;commit&lt;/strong&gt; this file to your GitHub project before quiz ends at the end of the class time.&lt;br /&gt;
+Tips for quiz submission:&lt;br /&gt;
+You can take two different approaches to creating the README.md file for this quiz that will reside in the &lt;code&gt;quiz/1/&lt;/code&gt; of your &lt;code&gt;IDS2024S&lt;/code&gt; GitHub project.
+    &lt;ul&gt;
+      &lt;li&gt;You can create the &lt;code&gt;quiz/1/README.md&lt;/code&gt; file on your GitHub project page account in your browser.&lt;br /&gt;
+This is the recommended approach if you still do not feel comfortable using the Git Bash command line.&lt;br /&gt;
+&lt;strong&gt;WARNING&lt;/strong&gt;&lt;br /&gt;
+In this case, just like how you created your &lt;code&gt;README.md&lt;/code&gt; file for the front page of your GitHub project,
+make sure to &lt;strong&gt;commit&lt;/strong&gt; all your changes to your quiz README file &lt;strong&gt;before&lt;/strong&gt; leaving the page.&lt;br /&gt;
+If you fail to commit the quiz README file (containing your quiz answers) before leaving the edit page, 
+you will lose all your answers and I will have nothing to grade.&lt;br /&gt;
+If you are in doubt, get help from Nicholas or me.&lt;/li&gt;
+      &lt;li&gt;You can make the &lt;code&gt;./quiz/1/README.md&lt;/code&gt; file in the clone of your &lt;code&gt;IDS2024S&lt;/code&gt; project that we created in class on Wednesday.&lt;br /&gt;
+Then add all your answers in the file, then stage and commit the file to your project on the Git Bash command line,
+then push the changes to your project on GitHub just like how we did it in class on Wednesday.&lt;br /&gt;
+This is the recommended approach if you already feel comfortable using the Git Bash command line.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Recall from our lectures that we typically name our read-me files &lt;code&gt;README.md&lt;/code&gt; on GitHub.&lt;br /&gt;
+What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;code&gt;.md&lt;/code&gt; extension for README files on GitHub?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Does the &lt;code&gt;git&lt;/code&gt; software index and track &lt;strong&gt;empty&lt;/strong&gt; folders in your project?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Does every Git project have a &lt;code&gt;.git&lt;/code&gt; folder?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the purpose of the &lt;code&gt;.git&lt;/code&gt; folder in Git projects?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does the Linux Bash command &lt;code&gt;cd&lt;/code&gt; do? (&lt;strong&gt;Hint:&lt;/strong&gt; See the Linux cheatsheet in the lecture notes)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does the Linux Bash command &lt;code&gt;ls -a&lt;/code&gt; do?  (&lt;strong&gt;Hint:&lt;/strong&gt; See the Linux cheatsheet in the lecture notes)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does the Linux Bash command &lt;code&gt;pwd&lt;/code&gt; do?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name and briefly describe the three different areas in a Git project.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is a Version Control System (VCS)? A brief explanation is enough.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name 6 major benefits of using &lt;em&gt;distributed&lt;/em&gt; VCS as opposed to not using any VCS at all for project indexing and maintenance.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the three major historical classes of VCS.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is Git and how is it different from GitHub?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does &lt;code&gt;git status&lt;/code&gt; command do?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does &lt;code&gt;git push --all&lt;/code&gt; command do?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does &lt;code&gt;git pull&lt;/code&gt; command do?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is Markdown? (A brief answer is sufficient)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do you make a text boldface in Markdown? (&lt;strong&gt;Hint:&lt;/strong&gt; Read the Markdown cheatsheet in the lecture notes)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do you make a text italic in Markdown? (&lt;strong&gt;Hint:&lt;/strong&gt; Read the Markdown cheatsheet in the lecture notes)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the Git command to initialize an empty git project on your local system?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What do &lt;code&gt;.&lt;/code&gt; and &lt;code&gt;..&lt;/code&gt; mean in directory path names (For example, in &lt;code&gt;./README.md&lt;/code&gt; and &lt;code&gt;../README.md&lt;/code&gt;?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The following steps will guide you to create an empty Git project using the terminal (on macOS / Linux) or Git Bash environment (on Windows).&lt;br /&gt;
+If you have not set up Git on your system in class before, &lt;a href=&quot;https://www.cdslab.org/recipes/programming/vcs-git-github-setup/vcs-git-github-setup&quot; target=&quot;_blank&quot;&gt;here is your last chance&lt;/a&gt; to do so.
+    &lt;ol&gt;
+      &lt;li&gt;Open your terminal (on Linux or macOS) or Git Bash (&lt;strong&gt;NOT Windows CMD or PowerShell&lt;/strong&gt;) on Windows.&lt;/li&gt;
+      &lt;li&gt;Navigate to your home directory and type the command that shows the path to the current directory on the command line (Hint: Recall the Linux commands to achieve this from our classes or the cheatsheets.)&lt;/li&gt;
+      &lt;li&gt;Select the commands that you have types and the commands output from the command line and paste it into your README.md file for this quiz in the section for this question.&lt;br /&gt;
+(Hint: You can select text with your mouse, then right click and look for &lt;strong&gt;copy&lt;/strong&gt; option, or alternatively, press &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;insert&lt;/code&gt; keys together to copy the selected text.)&lt;/li&gt;
+      &lt;li&gt;Create a new folder named &lt;code&gt;testdir&lt;/code&gt; in your home directory (where you are).&lt;br /&gt;
+(Hint: Recall the Linux command for making directories.)&lt;br /&gt;
+Copy the command and its output again to the README.md file you have created for the quiz.&lt;/li&gt;
+      &lt;li&gt;Change directory to &lt;code&gt;testdir&lt;/code&gt;. (Hint: Recall the command to change directory from the Linux cheatsheet and our class)&lt;/li&gt;
+      &lt;li&gt;Is this folder &lt;code&gt;testdir&lt;/code&gt; already a git repository? Why? Can you prove your answer with the command &lt;code&gt;ls -a&lt;/code&gt; (What does this command do?)&lt;/li&gt;
+      &lt;li&gt;If your answer to the above is &lt;strong&gt;YES&lt;/strong&gt;, then you can safely skip this part.&lt;br /&gt;
+If your answer is &lt;strong&gt;NO&lt;/strong&gt;, then how would you make this folder a Git project? (Hint: What is the right git command to achieve this?)&lt;/li&gt;
+      &lt;li&gt;Recall the &lt;code&gt;vim&lt;/code&gt; software from our lectures and classes. What does it do?&lt;br /&gt;
+Using &lt;code&gt;vim&lt;/code&gt; create a &lt;code&gt;README.md&lt;/code&gt; file and type &lt;code&gt;This is a README.md file for the test git project of quiz1&lt;/code&gt;.&lt;br /&gt;
+How do you save the contents of this file using &lt;code&gt;vim&lt;/code&gt; and quit the &lt;code&gt;vim&lt;/code&gt; environment? (Hint: Again remember our class discussion and lectures)&lt;/li&gt;
+      &lt;li&gt;Once you are out of the vim environment, type &lt;code&gt;cat README.md&lt;/code&gt; on the command line and press &lt;code&gt;Enter&lt;/code&gt; key.&lt;br /&gt;
+What do you see? Copy and paste this command and its output to as answer to this section of your quiz1 README.md file.&lt;/li&gt;
+      &lt;li&gt;How would you check the status of your test Git project that you have created in this folder?&lt;br /&gt;
+Paste the git command and its output as your answer to this question in your quiz README.md file.&lt;/li&gt;
+      &lt;li&gt;If you see no changes, you can skip this question.&lt;br /&gt;
+If you see changes in your git project from the step above, how would you &lt;strong&gt;stage&lt;/strong&gt; and &lt;strong&gt;commit&lt;/strong&gt; those changes to your test project on the command line?&lt;br /&gt;
+Type those two (or both in one) commands in the terminal and copy/paste the output to your quiz1 README file.&lt;/li&gt;
+      &lt;li&gt;Check the status of your test project one more time on the command line.&lt;br /&gt;
+Copy/paste the command and its output to your quiz1 README file.&lt;/li&gt;
+      &lt;li&gt;Now type the following command exactly as is in your terminal and press &lt;code&gt;Enter&lt;/code&gt;.
+        &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;cd &amp;amp;&amp;amp; rm -rf ./testdir
+&lt;/code&gt;&lt;/pre&gt;
+        &lt;p&gt;Explain what you just accomplished with the above command?  What does &lt;code&gt;-rf&lt;/code&gt; do in the above command?&lt;br /&gt;
+(Hint: &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; means perform the first command and if successful, then perform the command that follows &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;.)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Extra Credit.&lt;/strong&gt; What is the difference between a relative and an absolute file path?&lt;br /&gt;
+Which one is more appropriate to use in your GitHub projects? Why?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extra Credit.&lt;/strong&gt; Write down the Git command that lists all Git commands for you (&lt;strong&gt;Hint:&lt;/strong&gt; See the lecture notes)&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/quiz/1-intro-vcs&quot;&gt;Quiz 1: Version Control Systems&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on February 12, 2024.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

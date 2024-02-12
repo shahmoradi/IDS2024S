@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 1: Version Control Systems",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/quiz/1-intro-vcs",
+		  "date"       : "2024-02-12 00:00:00 -0600",
+		  "shortdate"  : "February 12, 2024"
+		} ,
+	
+		{
 		  "title"      : "Lecture 1: Scientific Computing - A Brief History and the State of the Art",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/lecture/1-programming-history",

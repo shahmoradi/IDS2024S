@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 1: Version Control Systems",
+    "href": "/IDS2024S/quiz/1-intro-vcs"
+  } ,
+
+  {
     "text": "Lecture 1: Scientific Computing - A Brief History and the State of the Art",
     "href": "/IDS2024S/lecture/1-programming-history"
   } ,
