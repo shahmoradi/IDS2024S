@@ -7,13 +7,140 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-02-14T13:30:34-06:00</updated>
+<updated>2024-02-20T00:19:23-06:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2024S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 2: Programming History]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/2-programming-history"/>
+  <id>http:/IDS2024S/homework/2-programming-history</id>
+  <published>2024-02-19T00:00:00-06:00</published>
+  <updated>2024-02-19T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday March 27, 2024 4:00 PM&lt;/strong&gt;.&lt;br /&gt;
+This homework aims at giving you some experience with computer hardware and software.&lt;br /&gt;
+Please write your answers in a &lt;code&gt;README.md&lt;/code&gt; file and push them all to &lt;code&gt;hw/2/&lt;/code&gt; folder of your repository on GitHub.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Consider &lt;a href=&quot;./2/progLangChartPuzzle.pdf&quot; target=&quot;_blank&quot;&gt;this programming history chart&lt;/a&gt;, in which several programming language nodes are missing.&lt;br /&gt;
+These languages are the following: lisp, basic, Algol 58, C, FORTRAN, Fortran 90, Python, C++, C#, Java, JavaScript, sh.
+    &lt;ol&gt;
+      &lt;li&gt;Download the above PDF, add these languages to the right node in this fillable PDF file, save the file and submit it along with your answers to other questions.&lt;/li&gt;
+      &lt;li&gt;Sort the above languages chronologically and write them here.&lt;/li&gt;
+      &lt;li&gt;Write down the decade during which these languages were developed.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does ENIAC stand for?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why is everything represented by integers in computers?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the name of the fastest part of the computer memory?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the slowest storage device in computers (that is typically integrated with computers)?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the smallest unit of information in computer science?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) What is the closest programming language to machine code (i.e., binary code)?&lt;/p&gt;
+
+    &lt;p&gt;(B) Does it need interpretation in order to become machine-comprehensible?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) Name the oldest high-level programming language that is still in active daily use.&lt;/p&gt;
+
+    &lt;p&gt;(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) Name a second-generation programming language.&lt;/p&gt;
+
+    &lt;p&gt;(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In what decades C, C++, and MATLAB/Python were created, respectively?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name an ancestor programming language of C.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name a programming language ancestor of C++.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consider the following chessboard.&lt;br /&gt;
+Suppose I ask you to put a single rice grain in the first square.&lt;br /&gt;
+Then I ask you to put incrementally one more grain in each new square than the previous one.
+    &lt;ol&gt;
+      &lt;li&gt;How many grains would you need to put in the last (64th) square?&lt;/li&gt;
+      &lt;li&gt;How many grains overall would you need to fill all chessboard squares incrementally as I asked above?&lt;/li&gt;
+      &lt;li&gt;A pound of rice is roughly 7000 grains. How many pounds of rice would you need for this task.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consider the following chessboard.&lt;br /&gt;
+Suppose I ask you to put a single rice grain in the first square.&lt;br /&gt;
+Then I ask you to put incrementally one more grain in each new square than the previous one:&lt;br /&gt;
+1, 2, 3, 4, 5, …
+    &lt;ol&gt;
+      &lt;li&gt;How many grains would you need to put in the last (64th) square?&lt;/li&gt;
+      &lt;li&gt;How many grains overall would you need to fill all chessboard squares incrementally as I asked above?&lt;/li&gt;
+      &lt;li&gt;A pound of rice is roughly 7000 grains. How many pounds of rice would you need for this task?&lt;br /&gt;
+&lt;img src=&quot;./2/arithmetic.png&quot; alt=&quot;chessboard&quot; /&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consider the following chessboard.&lt;br /&gt;
+Suppose I ask you to put a single rice grain in the first square.&lt;br /&gt;
+Then I ask you to put in each subsequent square twice more than the previous square grains:&lt;br /&gt;
+1, 2, 4, 8, 16, …
+    &lt;ol&gt;
+      &lt;li&gt;How many grains would you need to put in the last (64th) square?&lt;/li&gt;
+      &lt;li&gt;How many grains overall would you need to fill all chessboard squares geometrically as I asked above?&lt;/li&gt;
+      &lt;li&gt;A pound of rice is roughly 7000 grains. How many pounds of rice would you need for this task?&lt;/li&gt;
+      &lt;li&gt;The current annual world production of rice is roughly $2\times10^{12} = 2,000,000,000,000$ lbs.&lt;br /&gt;
+How many years will it take to produce the required amount of rice grains to place on this chessboard in this fashion?&lt;br /&gt;
+&lt;img src=&quot;./2/geometric.jpg&quot; alt=&quot;chessboard&quot; /&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; What are the three fundamental components of a Turing-complete language?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?&lt;br /&gt;
+&lt;strong&gt;Hint&lt;/strong&gt;: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/2-programming-history&quot;&gt;Homework 2: Programming History&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on February 19, 2024.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
