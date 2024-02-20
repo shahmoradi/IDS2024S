@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-02-20T00:19:57-06:00</updated>
+<updated>2024-02-20T11:55:39-06:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -110,7 +110,7 @@ Then I ask you to put incrementally one more grain in each new square than the p
 1, 2, 3, 4, 5, …
     &lt;ol&gt;
       &lt;li&gt;How many grains would you need to put in the last (64th) square?&lt;/li&gt;
-      &lt;li&gt;How many grains overall would you need to fill all chessboard squares incrementally as I asked above?&lt;/li&gt;
+      &lt;li&gt;How many grains overall would you need to fill all chessboard squares incrementally as described above?&lt;/li&gt;
       &lt;li&gt;A pound of rice is roughly 7000 grains. How many pounds of rice would you need for this task?&lt;br /&gt;
 &lt;img src=&quot;./2/arithmetic.png&quot; alt=&quot;chessboard&quot; /&gt;&lt;/li&gt;
     &lt;/ol&gt;
@@ -123,7 +123,7 @@ Then I ask you to put in each subsequent square twice more than the previous squ
 1, 2, 4, 8, 16, …
     &lt;ol&gt;
       &lt;li&gt;How many grains would you need to put in the last (64th) square?&lt;/li&gt;
-      &lt;li&gt;How many grains overall would you need to fill all chessboard squares geometrically as I asked above?&lt;/li&gt;
+      &lt;li&gt;How many grains would you need to fill the last chessboard square geometrically as described above?&lt;/li&gt;
       &lt;li&gt;A pound of rice is roughly 7000 grains. How many pounds of rice would you need for this task?&lt;/li&gt;
       &lt;li&gt;The current annual world production of rice is roughly $2\times10^{12} = 2,000,000,000,000$ lbs.&lt;br /&gt;
 How many years will it take to produce the required amount of rice grains to place on this chessboard in this fashion?&lt;br /&gt;
