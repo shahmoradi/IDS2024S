@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-02-21T15:43:32-06:00</updated>
+<updated>2024-02-26T21:13:53-06:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -30,7 +30,8 @@
   
   <content type="html">
   
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday February 27, 2024 4:00 PM&lt;/strong&gt;.&lt;br /&gt;
+    
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday February 27, 2024 4:00 PM&lt;/strong&gt;.&lt;br /&gt;
 This homework aims at giving you some experience with computer hardware and software.&lt;br /&gt;
 Please write your answers in a &lt;code&gt;README.md&lt;/code&gt; file and push them all to &lt;code&gt;hw/2/&lt;/code&gt; folder of your repository on GitHub.&lt;/p&gt;
 
@@ -88,21 +89,42 @@ These languages are the following: lisp, basic, Algol 58, C, FORTRAN, Fortran 90
     &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
+    &lt;p&gt;What is fastest part of the memory in the memory hierarchy of modern computers?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
+    &lt;p&gt;What is typically the smallest memory unit in the memory hierarchy of modern computers?&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Consider the following chessboard.&lt;br /&gt;
-Suppose I ask you to put a single rice grain in the first square.&lt;br /&gt;
-Then I ask you to put incrementally one more grain in each new square than the previous one.
-    &lt;ol&gt;
-      &lt;li&gt;How many grains would you need to put in the last (64th) square?&lt;/li&gt;
-      &lt;li&gt;How many grains overall would you need to fill all chessboard squares incrementally as I asked above?&lt;/li&gt;
-      &lt;li&gt;A pound of rice is roughly 7000 grains. How many pounds of rice would you need for this task.&lt;/li&gt;
-    &lt;/ol&gt;
-
-    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;How much faster is the access to the register memory compared to RAM in modern computers?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How much faster is the access to the RAM compared to typical SSD hard drives in modern computers?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How much faster is the access to the RAM compared to typical HDD hard drives in modern computers?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are the primary roles of transistors in computers?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We know that more transistors mean faster computers.&lt;br /&gt;
+Then, why cannot we add more transistors to computers to make them faster?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are the three tasks accomplished within a CPU cycle?&lt;br /&gt;
+Then, why cannot we add more transistors to computers to make them faster?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Can a powerful computer with more CPU cycles be slower than a computer with less CPU cycles? Why or How?&lt;br /&gt;
+Then, why cannot we add more transistors to computers to make them faster?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the bottleneck of speed in modern computers? CPU clocks or memory access? Why?&lt;br /&gt;
+Then, why cannot we add more transistors to computers to make them faster?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the difference between the Dennard Scaling, MOSFET scaling, and Moore’s law?&lt;br /&gt;
+Then, why cannot we add more transistors to computers to make them faster?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Consider the following chessboard.&lt;br /&gt;
 Suppose I ask you to put a single rice grain in the first square.&lt;br /&gt;
@@ -132,19 +154,6 @@ How many years will it take to produce the required amount of rice grains to pla
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What are the three fundamental components of a Turing-complete language?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Consider the following Bash script.&lt;br /&gt;
-Identify the programmatic errors and their kinds (syntax, runtime, semantic) in this script.&lt;br /&gt;
-Rewrite this script with the help of Linux cheatsheet in the lectures so that it does what the comments state.
-    &lt;pre&gt;&lt;code class=&quot;language-Bash&quot;&gt;# make a new directory named `subdir` in the current directory.
-rm -rf ../subdir
-# change the directory to `subdir` directory in the current directory.
-mv ../subdir
-# create a new file named `newfile.md` in `subdir` directory.
-tuoch newfile.md
-# show the new file contents on the command line.
-tac newfile
-&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?&lt;br /&gt;
 &lt;strong&gt;Hint&lt;/strong&gt;: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.&lt;/li&gt;
