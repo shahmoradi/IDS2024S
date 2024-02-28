@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 2: Programming History",
+    "href": "/IDS2024S/quiz/2-prog-hist"
+  } ,
+
+  {
     "text": "Quiz 1: Version Control Systems",
     "href": "/IDS2024S/quiz/1-intro-vcs"
   } ,

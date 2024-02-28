@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 2: Programming History",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/quiz/2-prog-hist",
+		  "date"       : "2024-02-28 00:00:00 -0600",
+		  "shortdate"  : "February 28, 2024"
+		} ,
+	
+		{
 		  "title"      : "Homework 2: Programming History",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/homework/2-programming-history",
