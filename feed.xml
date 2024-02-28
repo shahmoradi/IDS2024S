@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-02-28T16:06:37-06:00</updated>
+<updated>2024-02-28T16:10:02-06:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -152,7 +152,7 @@ Java, COBOL, C++, Python, Fortran, B&lt;/p&gt;
     &lt;p&gt;Consider the following summation:&lt;br /&gt;
 \(S = 3 + 6 + 9 + \ldots + 93 + 96 + 99 ~.\)&lt;br /&gt;
 What is the value of S? Explain your novel strategy to get your answer.&lt;br /&gt;
-(&lt;strong&gt;Hint&lt;/strong&gt;: There $33$ numbers in the summation.)&lt;/p&gt;
+(&lt;strong&gt;Hint&lt;/strong&gt;: There are $33$ numbers in the summation.)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Extra Credit&lt;/strong&gt;. Which memory device is longer lasting: magnetic tapes or HDD (Hard-Disk Drives)? 
