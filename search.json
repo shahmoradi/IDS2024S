@@ -1,6 +1,22 @@
 [
 	
 		{
+		  "title"      : "Homework 3: Logic and Probability Theory",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/homework/3-logic",
+		  "date"       : "2024-10-20 00:00:00 -0500",
+		  "shortdate"  : "October 20, 2024"
+		} ,
+	
+		{
+		  "title"      : "Lecture 3: Logic and Probability Theory",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/lecture/2-logic.probability",
+		  "date"       : "2024-03-04 00:00:00 -0600",
+		  "shortdate"  : "March 04, 2024"
+		} ,
+	
+		{
 		  "title"      : "Quiz 2: Programming History",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/quiz/2-prog-hist",
