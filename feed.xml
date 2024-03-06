@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-03-04T16:03:51-06:00</updated>
+<updated>2024-03-06T13:35:27-06:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -68,6 +68,24 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-desiderata/probability-desiderata&quot; target=&quot;_blank&quot;&gt;The fundamental desiderata of Probability Theory&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Consider the following series of questions:&lt;br /&gt;
+a.  What is the tiniest unit of information?&lt;br /&gt;
+    &lt;strong&gt;Hint&lt;/strong&gt;: This unit also represents the tiniest bit of information in computers.&lt;br /&gt;
+b.  Why does this amount of information represent the tiniest information unit?&lt;br /&gt;
+    &lt;strong&gt;Hint&lt;/strong&gt;: Use inductive logic with examples to explain your reasoning.&lt;br /&gt;
+    Imagine yourself as a single dot in empty space in a universe devoid of anything else.&lt;br /&gt;
+    Would you be able to tell your coordinates in the universe? &lt;br /&gt;
+    or whether you are moving? or at what constant speed?&lt;br /&gt;
+    Why?  What extra piece of information do you need to answer the above questions?&lt;br /&gt;
+c.  Let’s assign a box to this tiniest representable amount of information.&lt;br /&gt;
+    Obviously, we cannot represent much information with it. 
+    So, our remedy is to put multiple of these boxes to represent information about something.    &lt;br /&gt;
+    1.  How many different things can we assign to (or represent with) a collection of 1 such boxes?&lt;br /&gt;
+    2.  How many different things can we assign to (or represent with) a collection of 2 such boxes?&lt;br /&gt;
+    3.  How many different things can we assign to (or represent with) a collection of 3 such boxes?&lt;br /&gt;
+    &lt;strong&gt;Hint&lt;/strong&gt;: Draw binary trees as we described in class to justify your answers.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
