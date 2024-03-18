@@ -52,11 +52,15 @@
     </url>
     
     <url>
-        <loc>/IDS2024S/lecture/2-logic.probability</loc>
+        <loc>/IDS2024S/lecture/3-logic.probability</loc>
     </url>
     
     <url>
         <loc>/IDS2024S/quiz/2-prog-hist</loc>
+    </url>
+    
+    <url>
+        <loc>/IDS2024S/lecture/2-programming-history</loc>
     </url>
     
     <url>
@@ -68,7 +72,7 @@
     </url>
     
     <url>
-        <loc>/IDS2024S/lecture/1-programming-history</loc>
+        <loc>/IDS2024S/lecture/1-data-science</loc>
     </url>
     
     <url>

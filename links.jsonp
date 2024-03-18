@@ -13,12 +13,17 @@ callback([
 
   {
     "text": "Lecture 3: Logic and Probability Theory",
-    "href": "/IDS2024S/lecture/2-logic.probability"
+    "href": "/IDS2024S/lecture/3-logic.probability"
+  } ,
+
+  {
+    "text": "Lecture 2: Scientific Computing - A Brief History and the State of the Art",
+    "href": "/IDS2024S/lecture/2-programming-history"
   } ,
 
   {
     "text": "Lecture 1: Scientific Computing - A Brief History and the State of the Art",
-    "href": "/IDS2024S/lecture/1-programming-history"
+    "href": "/IDS2024S/lecture/1-data-science"
   } ,
 
   {
