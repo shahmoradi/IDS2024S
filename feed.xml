@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-03-23T21:18:08-05:00</updated>
+<updated>2024-03-27T15:58:38-05:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -90,6 +90,116 @@ c.  Let’s assign a box to this tiniest representable amount of information.&lt
 
   
   &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/3-logic&quot;&gt;Homework 3: Logic and Probability Theory&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on October 20, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 3: Inference and Logic Fundamentals]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/quiz/3-logic"/>
+  <id>http:/IDS2024S/quiz/3-logic</id>
+  <published>2024-03-27T00:00:00-05:00</published>
+  <updated>2024-03-27T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;This quiz aims at testing your basic knowledge of Scientific Inference and Logic.&lt;br /&gt;
+Don’t forget to push your answers to your remote repository by the end of quiz time.&lt;br /&gt;
+Push all your answers to &lt;strong&gt;quiz/3/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hint&lt;/strong&gt;.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Remember that in mathematics and Data Science, 
+especially when proving or deriving something (like drawing Venn diagrams or Truth Tables)
+it is best to split the whole process (solution) to the tiniest steps possible and
+achieve them one after the other.&lt;/li&gt;
+  &lt;li&gt;All derivation and proof questions are based on what we have covered in lecture slides and HW.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name and describe briefly the steps involved in scientific inference.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the three pillars of science.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Describe three different &lt;strong&gt;major&lt;/strong&gt; applications of the third pillar of science with respect to the first two.&lt;br /&gt;
+(&lt;strong&gt;Hint&lt;/strong&gt;: Recall the discussions we had early in the semester during the first lecture series. Where and how could the third pillar replace the other pillars?)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the two different categories of logical reasoning and provide and example of each class.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is logical implication the same as physical causation? Explain with an example.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Who is the Boolean algebra named after?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Illustrate the logical conjunction via a Venn Diagram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Illustrate the logical disjunction via a Venn Diagram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does it mean if two Boolean propositions are equal?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Display the &lt;strong&gt;logical implication&lt;/strong&gt; $A \Rightarrow B$ via a Venn diagram.&lt;br /&gt;
+(&lt;strong&gt;Hint&lt;/strong&gt;. Think about the meaning of &lt;strong&gt;logical implication&lt;/strong&gt; $A \Rightarrow B$: 
+If $A$ is true, then $B$ &lt;strong&gt;must be&lt;/strong&gt; true. 
+If $A$ is false, then $B$ &lt;strong&gt;can be either&lt;/strong&gt; true or false.
+What configuration of $A$ and $B$ circles in a Venn diagram would correspond to the above statement for logical implication? 
+Recall that when you are inside an object (circle) in a Venn diagram, it means the proposition corresponding to that object is true. 
+When you are outside, the proposition is false.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Recall the &lt;strong&gt;Boolean algebra’s fundamental identities&lt;/strong&gt; from our lecture notes. Show that,&lt;br /&gt;
+&lt;br /&gt;
+\(\overline{C(A + B)} \equiv \overline{C} + \overline{A} ~ \overline{B}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Show, via Venn diagrams, that $\overline{AB} \not\equiv \overline{A}~\overline{B}$.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Show, via Venn diagram &lt;strong&gt;or&lt;/strong&gt; truth table, that $\overline{A + B} \not\equiv \overline{A}~+~\overline{B}$.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-a-nand-equivalence/logic/logic-a-nand-equivalence&quot; target=&quot;_blank&quot;&gt;NAND equivalence&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-nand-nor/logic/logic-nand-nor&quot; target=&quot;_blank&quot;&gt;Logic NAND and NOR&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-implication/logic-functions-implication&quot; target=&quot;_blank&quot;&gt;Logical implication in terms of logic functions&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Show via a Venn Diagram or a Truth Table, or explain by a logical argument that $(A \Rightarrow B) ~ \mathbf{\equiv} ~ (\overline{B} \Rightarrow \overline{A})$.
+&lt;strong&gt;Hint&lt;/strong&gt;. This is a very simple question. Recall what &lt;em&gt;logical implication&lt;/em&gt; means in terms of a Venn diagram. 
+How does $A$ look relative to $B$? Does the same also hold for $\overline{B}$ relative to $\overline{A}$?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Extra Credit&lt;/strong&gt;. Was this a fair quiz (overall, as you expected)? 
+Briefly justify your response, especially if your answer is NO. 
+How about the past quizzes in this course?
+(&lt;strong&gt;Hint&lt;/strong&gt;. Provide your sincere opinion. 
+Your answer won’t impact anything about your status in this course other than giving you an extra credit in this quiz. But it will impact the design of the future quizzes.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/quiz/3-logic&quot;&gt;Quiz 3: Inference and Logic Fundamentals&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on March 27, 2024.&lt;/p&gt;</content>
 </entry>
 
 

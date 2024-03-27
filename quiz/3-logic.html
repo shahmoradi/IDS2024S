@@ -11,7 +11,7 @@
 -->
 
 <meta charset="utf-8">
-<title>LECTURE 1: SCIENTIFIC COMPUTING - A BRIEF HISTORY AND THE STATE OF THE ART &vert; DATA 1301 - SPRING 2024 - MW 16:00-17:20 - PKH 103 / MICROSOFT TEAMS VIRTUAL ROOM</title>
+<title>QUIZ 3: INFERENCE AND LOGIC FUNDAMENTALS &vert; DATA 1301 - SPRING 2024 - MW 16:00-17:20 - PKH 103 / MICROSOFT TEAMS VIRTUAL ROOM</title>
 <meta name="description" content="Introduction to Data Science">
 <meta name="keywords" content="">
 
@@ -20,9 +20,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Lecture 1: Scientific Computing - A Brief History and the State of the Art">
+<meta property="og:title" content="Quiz 3: Inference and Logic Fundamentals">
 <meta property="og:description" content="Introduction to Data Science">
-<meta property="og:url" content="/IDS2024S/lecture/1-data-science">
+<meta property="og:url" content="/IDS2024S/quiz/3-logic">
 <meta property="og:site_name" content="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room">
 <meta property="og:image" content="/IDS2024S/images/">
 
@@ -30,7 +30,7 @@
 
 
 
-<link rel="canonical" href="/IDS2024S/lecture/1-data-science">
+<link rel="canonical" href="/IDS2024S/quiz/3-logic">
 <!-- <link href="/IDS2024S/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room Feed"> -->
 
 
@@ -130,8 +130,8 @@ MathJax.Hub.Queue(function() {
                 <div class="notepad-post-title-simple row">
                     <div class="small-12 columns">
                         <div class="notepad-post-meta-simple">
-                            <h2>Lecture 1: Scientific Computing - A Brief History and the State of the Art</h2>
-                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2024-01-22T00:00:00-06:00">22 Jan 2024</time></strong></p>
+                            <h2>Quiz 3: Inference and Logic Fundamentals</h2>
+                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2024-03-27T00:00:00-05:00">27 Mar 2024</time></strong></p>
                         </div>
                     </div>
                 </div>
@@ -141,24 +141,107 @@ MathJax.Hub.Queue(function() {
             <article class="notepad-post-content post tag-simple">
         
             <div style="text-align:justify;">
-                <p>This lecture aims at providing a brief history of the development of computers and computer programming 
-languages and their mutual interaction with rapid developments in natural sciences in the 20th century.</p>
+                
+<p>This quiz aims at testing your basic knowledge of Scientific Inference and Logic.<br />
+Don’t forget to push your answers to your remote repository by the end of quiz time.<br />
+Push all your answers to <strong>quiz/3/</strong> folder in your Github project.</p>
 
-<ul>
-  <li><a href="https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html" target="_blank">Version Control System</a></li>
-  <li><a href="https://github.com/UTA-DataScience/DATA1301.2021.Fall/raw/main/0.introduction.pdf" target="_blank">intro-data-science</a></li>
-</ul>
+<p><strong>Hint</strong>.</p>
+<ol>
+  <li>Remember that in mathematics and Data Science, 
+especially when proving or deriving something (like drawing Venn diagrams or Truth Tables)
+it is best to split the whole process (solution) to the tiniest steps possible and
+achieve them one after the other.</li>
+  <li>All derivation and proof questions are based on what we have covered in lecture slides and HW.</li>
+</ol>
+
+<hr />
+<hr />
+
+<p><br /></p>
+
+<ol>
+  <li>
+    <p>Name and describe briefly the steps involved in scientific inference.</p>
+  </li>
+  <li>
+    <p>Name the three pillars of science.</p>
+  </li>
+  <li>
+    <p>Describe three different <strong>major</strong> applications of the third pillar of science with respect to the first two.<br />
+(<strong>Hint</strong>: Recall the discussions we had early in the semester during the first lecture series. Where and how could the third pillar replace the other pillars?)</p>
+  </li>
+  <li>
+    <p>Name the two different categories of logical reasoning and provide and example of each class.</p>
+  </li>
+  <li>
+    <p>Is logical implication the same as physical causation? Explain with an example.</p>
+  </li>
+  <li>
+    <p>Who is the Boolean algebra named after?</p>
+  </li>
+  <li>
+    <p>Illustrate the logical conjunction via a Venn Diagram.</p>
+  </li>
+  <li>
+    <p>Illustrate the logical disjunction via a Venn Diagram.</p>
+  </li>
+  <li>
+    <p>What does it mean if two Boolean propositions are equal?</p>
+  </li>
+  <li>
+    <p>Display the <strong>logical implication</strong> $A \Rightarrow B$ via a Venn diagram.<br />
+(<strong>Hint</strong>. Think about the meaning of <strong>logical implication</strong> $A \Rightarrow B$: 
+If $A$ is true, then $B$ <strong>must be</strong> true. 
+If $A$ is false, then $B$ <strong>can be either</strong> true or false.
+What configuration of $A$ and $B$ circles in a Venn diagram would correspond to the above statement for logical implication? 
+Recall that when you are inside an object (circle) in a Venn diagram, it means the proposition corresponding to that object is true. 
+When you are outside, the proposition is false.)</p>
+  </li>
+  <li>
+    <p>Recall the <strong>Boolean algebra’s fundamental identities</strong> from our lecture notes. Show that,<br />
+<br />
+\(\overline{C(A + B)} \equiv \overline{C} + \overline{A} ~ \overline{B}\)</p>
+  </li>
+  <li>
+    <p>Show, via Venn diagrams, that $\overline{AB} \not\equiv \overline{A}~\overline{B}$.</p>
+  </li>
+  <li>
+    <p>Show, via Venn diagram <strong>or</strong> truth table, that $\overline{A + B} \not\equiv \overline{A}~+~\overline{B}$.</p>
+  </li>
+  <li>
+    <p><a href="https://www.cdslab.org/recipes/programming/logic-a-nand-equivalence/logic/logic-a-nand-equivalence" target="_blank">NAND equivalence</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://www.cdslab.org/recipes/programming/logic-nand-nor/logic/logic-nand-nor" target="_blank">Logic NAND and NOR</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://www.cdslab.org/recipes/programming/logic-functions-implication/logic-functions-implication" target="_blank">Logical implication in terms of logic functions</a>.</p>
+  </li>
+  <li>
+    <p>Show via a Venn Diagram or a Truth Table, or explain by a logical argument that $(A \Rightarrow B) ~ \mathbf{\equiv} ~ (\overline{B} \Rightarrow \overline{A})$.
+<strong>Hint</strong>. This is a very simple question. Recall what <em>logical implication</em> means in terms of a Venn diagram. 
+How does $A$ look relative to $B$? Does the same also hold for $\overline{B}$ relative to $\overline{A}$?</p>
+  </li>
+  <li>
+    <p><strong>Extra Credit</strong>. Was this a fair quiz (overall, as you expected)? 
+Briefly justify your response, especially if your answer is NO. 
+How about the past quizzes in this course?
+(<strong>Hint</strong>. Provide your sincere opinion. 
+Your answer won’t impact anything about your status in this course other than giving you an extra credit in this quiz. But it will impact the design of the future quizzes.)</p>
+  </li>
+</ol>
 
             </div>
         </article>
         <div class="cf"></div>
 <div class="row text-center">
     <section class="notepad-post-share">
-        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Lecture 1: Scientific Computing - A Brief History and the State of the Art&quot;%20/IDS2024S/lecture/1-data-science%20via%20&#64;"
+        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Quiz 3: Inference and Logic Fundamentals&quot;%20/IDS2024S/quiz/3-logic%20via%20&#64;"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
             <i class="fa fa-twitter"></i>
         </a>
-        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/IDS2024S/lecture/1-data-science"
+        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/IDS2024S/quiz/3-logic"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
             <i class="fa fa-facebook"></i>
         </a>

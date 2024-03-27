@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 3: Inference and Logic Fundamentals",
+    "href": "/IDS2024S/quiz/3-logic"
+  } ,
+
+  {
     "text": "Quiz 2: Programming History",
     "href": "/IDS2024S/quiz/2-prog-hist"
   } ,
