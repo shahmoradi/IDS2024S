@@ -9,6 +9,14 @@
 		} ,
 	
 		{
+		  "title"      : "Lecture 4: Probability Theory",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/lecture/4-probability",
+		  "date"       : "2024-04-01 00:00:00 -0500",
+		  "shortdate"  : "April 01, 2024"
+		} ,
+	
+		{
 		  "title"      : "Quiz 3: Inference and Logic Fundamentals",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/quiz/3-logic",

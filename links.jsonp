@@ -17,6 +17,11 @@ callback([
   } ,
 
   {
+    "text": "Lecture 4: Probability Theory",
+    "href": "/IDS2024S/lecture/4-probability"
+  } ,
+
+  {
     "text": "Lecture 3: Logic and Probability Theory",
     "href": "/IDS2024S/lecture/3-logic.probability"
   } ,
