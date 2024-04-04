@@ -37,6 +37,11 @@ callback([
   } ,
 
   {
+    "text": "Homework 4: Logical Expressions and Probability Theory",
+    "href": "/IDS2024S/homework/4-logic-probability"
+  } ,
+
+  {
     "text": "Homework 3: Logic and Probability Theory",
     "href": "/IDS2024S/homework/3-logic"
   } ,

@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Homework 4: Logical Expressions and Probability Theory",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/homework/4-logic-probability",
+		  "date"       : "2024-10-20 00:00:00 -0500",
+		  "shortdate"  : "October 20, 2024"
+		} ,
+	
+		{
 		  "title"      : "Homework 3: Logic and Probability Theory",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/homework/3-logic",

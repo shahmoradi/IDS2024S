@@ -7,13 +7,46 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-04-01T15:54:03-05:00</updated>
+<updated>2024-04-04T15:01:27-05:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2024S/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 4: Logical Expressions and Probability Theory]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/4-logic-probability"/>
+  <id>http:/IDS2024S/homework/4-logic-probability</id>
+  <published>2024-10-20T00:00:00-05:00</published>
+  <updated>2024-10-20T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday April 10, 2024 at 4 PM&lt;/strong&gt;. This homework aims at giving you some experience with logical proofs and probability theory.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-nand-nor/logic/logic-nand-nor&quot; target=&quot;_blank&quot;&gt;Logic NAND and NOR&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-a-nand-equivalence/logic/logic-a-nand-equivalence&quot; target=&quot;_blank&quot;&gt;Logic NAND equivalence&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-implication-denial-equivalence/logic/logic-implication-denial-equivalence&quot; target=&quot;_blank&quot;&gt;Logic implication, denial, equivalence&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-boolean-algebra-venn-diagram/logic/logic-boolean-algebra-venn-diagram&quot; target=&quot;_blank&quot;&gt;Respond to this question&lt;/a&gt; &lt;strong&gt;only&lt;/strong&gt; for the cases of &lt;strong&gt;Distributivity&lt;/strong&gt; and &lt;strong&gt;Duality&lt;/strong&gt; identities.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-boolean-algebra-truth-table/logic/logic-boolean-algebra-truth-table&quot; target=&quot;_blank&quot;&gt;Respond to this question&lt;/a&gt; &lt;strong&gt;only&lt;/strong&gt; for the cases of &lt;strong&gt;Distributivity&lt;/strong&gt; and &lt;strong&gt;Duality&lt;/strong&gt; identities.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-correspondence-with-common-sense/probability-correspondence-with-common-sense&quot; target=&quot;_blank&quot;&gt;Probability Theory: correspondence with commonsense&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-desiderata/probability-desiderata&quot; target=&quot;_blank&quot;&gt;The fundamental desiderata of Probability Theory&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/4-logic-probability&quot;&gt;Homework 4: Logical Expressions and Probability Theory&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on October 20, 2024.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
