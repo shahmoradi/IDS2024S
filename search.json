@@ -17,6 +17,14 @@
 		} ,
 	
 		{
+		  "title"      : "Quiz 4: Logic and probability theory",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/quiz/4-logic-probability",
+		  "date"       : "2024-04-10 00:00:00 -0500",
+		  "shortdate"  : "April 10, 2024"
+		} ,
+	
+		{
 		  "title"      : "Lecture 4: Probability Theory",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/lecture/4-probability",
