@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-04-10T00:57:18-05:00</updated>
+<updated>2024-04-15T14:45:33-05:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -17,11 +17,11 @@
 
 
 <entry>
-  <title type="html"><![CDATA[Homework 4: Logical Expressions and Probability Theory]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/4-logic-probability"/>
-  <id>http:/IDS2024S/homework/4-logic-probability</id>
-  <published>2024-10-20T00:00:00-05:00</published>
-  <updated>2024-10-20T00:00:00-05:00</updated>
+  <title type="html"><![CDATA[Homework 5: Data visualization, modeling, and classification]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/5-data-vis-modeling-ml"/>
+  <id>http:/IDS2024S/homework/5-data-vis-modeling-ml</id>
+  <published>2024-04-15T00:00:00-05:00</published>
+  <updated>2024-04-15T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -30,99 +30,80 @@
   
   <content type="html">
   
-    
-&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday April 10, 2024 at 4 PM&lt;/strong&gt;. This homework aims at giving you some experience with logical proofs and probability theory.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-nand-nor/logic/logic-nand-nor&quot; target=&quot;_blank&quot;&gt;Logic NAND and NOR&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-a-nand-equivalence/logic/logic-a-nand-equivalence&quot; target=&quot;_blank&quot;&gt;Logic NAND equivalence&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-implication-denial-equivalence/logic/logic-implication-denial-equivalence&quot; target=&quot;_blank&quot;&gt;Logic implication, denial, equivalence&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-boolean-algebra-venn-diagram/logic/logic-boolean-algebra-venn-diagram&quot; target=&quot;_blank&quot;&gt;Respond to this question&lt;/a&gt; &lt;strong&gt;only&lt;/strong&gt; for the cases of &lt;strong&gt;Distributivity&lt;/strong&gt; and &lt;strong&gt;Duality&lt;/strong&gt; identities.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-boolean-algebra-truth-table/logic/logic-boolean-algebra-truth-table&quot; target=&quot;_blank&quot;&gt;Respond to this question&lt;/a&gt; &lt;strong&gt;only&lt;/strong&gt; for the cases of &lt;strong&gt;Distributivity&lt;/strong&gt; and &lt;strong&gt;Duality&lt;/strong&gt; identities.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-correspondence-with-common-sense/probability-correspondence-with-common-sense&quot; target=&quot;_blank&quot;&gt;Probability Theory: correspondence with commonsense&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-desiderata/probability-desiderata&quot; target=&quot;_blank&quot;&gt;The fundamental desiderata of Probability Theory&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/4-logic-probability&quot;&gt;Homework 4: Logical Expressions and Probability Theory&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on October 20, 2024.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 3: Logic and Probability Theory]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/3-logic"/>
-  <id>http:/IDS2024S/homework/3-logic</id>
-  <published>2024-10-20T00:00:00-05:00</published>
-  <updated>2024-10-20T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2024S</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    
-&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday March 27, 2024 at 4 PM&lt;/strong&gt;. This homework aims at giving you some experience with logical thinking and algebra.&lt;/p&gt;
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday May 1, 2024 4:00 PM&lt;/strong&gt;. This homework aims at giving you some experience with the basic elements of 
+Machine Learning data visualization concepts, modeling, and classification techniques.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Name the three pillars of Science.&lt;/p&gt;
+    &lt;p&gt;what are &lt;em&gt;aesthetics&lt;/em&gt; in data visualization? Name a few aesthetics that can appear in a data visualization.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Name and briefly describe three different applications of Computational and Data Sciences.&lt;/p&gt;
+    &lt;p&gt;Name the two major classes of aesthetics.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-two-types-of-scientific-reasoning/logic/logic-two-types-of-scientific-reasoning&quot; target=&quot;_blank&quot;&gt;Name the two types of scientific reasoning&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Name the two major types of data and provide an example for each category.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Provide an example that shows logical implication does not necessarily imply physical causation.&lt;/p&gt;
+    &lt;p&gt;What is the common name for variables holding qualitative data?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-policeman-jewelry-burglar/logic/logic-policeman-jewelry-burglar&quot; target=&quot;_blank&quot;&gt;Policeman, jewelry, and burglar&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Provide examples of &lt;em&gt;ordered&lt;/em&gt; and &lt;em&gt;unordered&lt;/em&gt; data.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What are the types of data in the columns of the following table?&lt;br /&gt;
+Quantitative/Qualitative?&lt;br /&gt;
+Numerical/Categorical?&lt;br /&gt;
+Continuous/Discrete?&lt;br /&gt;
+Ordered/Unordered?
+    &lt;figure&gt;
+    &lt;img src=&quot;./3/data.types.png&quot; alt=&quot;data types&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/figure&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-implication/logic/logic-implication&quot; target=&quot;_blank&quot;&gt;Logical Implication&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;What kinds of axes in a plot should be represented with the same units and grid size?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-product-denial/logic/logic-product-denial&quot; target=&quot;_blank&quot;&gt;Logical product denial&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Describe an example scenario in which transforming the axes of the plot results in better visualizations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Which one of the following three coordinates are valid and can be used to represent data?
+    &lt;figure&gt;
+    &lt;img src=&quot;./3/coordinates.png&quot; alt=&quot;data types&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/figure&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-1d/logic-functions-1d&quot; target=&quot;_blank&quot;&gt;Logic functions with 1 input&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;What kind of data set can be best visualized in &lt;em&gt;polar coordinates&lt;/em&gt;?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-2d/logic-functions-2d&quot; target=&quot;_blank&quot;&gt;Logic functions with 2 input&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Name four different color scales and explain their most appropriate usage.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What is wrong with the following visualization?
+    &lt;figure&gt;
+    &lt;img src=&quot;./3/wrong.png&quot; alt=&quot;wrong&quot; style=&quot;width:80%&quot; /&gt;
+&lt;/figure&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-operations/logic-functions-operations&quot; target=&quot;_blank&quot;&gt;Logic functions in terms of logic functions&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/coordinates-transformation/coordinates-transformation&quot; target=&quot;_blank&quot;&gt;Coordinates transformation in visualization&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-fundamental-operations/logic-fundamental-operations&quot; target=&quot;_blank&quot;&gt;The fundamental logical operators&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring&quot; target=&quot;_blank&quot;&gt;Best visualization coloring&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Consider the following series of questions:&lt;br /&gt;
-a.  What is the tiniest unit of information?&lt;br /&gt;
-    &lt;strong&gt;Hint&lt;/strong&gt;: This unit also represents the tiniest bit of information in computers.&lt;br /&gt;
-b.  Why does this amount of information represent the tiniest information unit?&lt;br /&gt;
-    &lt;strong&gt;Hint&lt;/strong&gt;: Use inductive logic with examples to explain your reasoning.&lt;br /&gt;
-    Imagine yourself as a single dot in empty space in a universe devoid of anything else.&lt;br /&gt;
-    Would you be able to tell your coordinates in the universe? &lt;br /&gt;
-    or whether you are moving? or at what constant speed?&lt;br /&gt;
-    Why?  What extra piece of information do you need to answer the above questions?&lt;br /&gt;
-c.  Let’s assign a box to this tiniest representable amount of information.&lt;br /&gt;
-    Obviously, we cannot represent much information with it. 
-    So, our remedy is to put multiple of these boxes to represent information about something.    &lt;br /&gt;
-    1.  How many different things can we assign to (or represent with) a collection of 1 such boxes?&lt;br /&gt;
-    2.  How many different things can we assign to (or represent with) a collection of 2 such boxes?&lt;br /&gt;
-    3.  How many different things can we assign to (or represent with) a collection of 3 such boxes?&lt;br /&gt;
-    &lt;strong&gt;Hint&lt;/strong&gt;: Draw binary trees as we described in class to justify your answers.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-temp-honolulu-duluth/vis-temp-honolulu-duluth-excel&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth via Excel&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-rain-sunshine/vis-excel-rain-sunlight&quot; target=&quot;_blank&quot;&gt;Visualizing the average precipitation of the US states vs. sunshine&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-bayes-rule-proof-venn-disgram/probability-bayes-rule-proof-venn-disgram&quot; target=&quot;_blank&quot;&gt;The proof of Bayes’ Rule via Venn diagram&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-schools-of-thought/probability-schools-of-thought&quot; target=&quot;_blank&quot;&gt;The major schools of thought in Probability Theory&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-excel/regression-predicting-future-global-land-temperature-excel&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the global land temperature of Earth in 2050 from the past data: Choosing the best model&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-temp-honolulu-duluth/vis-temp-honolulu-duluth-excel&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth via Excel&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-dbscan-online/clustering-dbscan-online&quot; target=&quot;_blank&quot;&gt;Online experimentation with DBSCAN clustering technique&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-kmeans-vs-dbscan-online/clustering-kmeans-vs-dbscan-online&quot; target=&quot;_blank&quot;&gt;Online comparison of the Kmeans clustering algorithm with DBSCAN&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extra Credit&lt;/strong&gt;: &lt;a href=&quot;https://www.cdslab.org/recipes/programming/puzzle-how-many-animals-in-pond/puzzle-how-many-animals-in-pond&quot; target=&quot;_blank&quot;&gt;Puzzle: What living creatures do you see?&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extra Credit&lt;/strong&gt;: &lt;a href=&quot;https://www.cdslab.org/recipes/programming/puzzle-matchstick-equation/puzzle-matchstick-equation&quot; target=&quot;_blank&quot;&gt;Puzzle: Matchstick Wrong Equation&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-
   
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/3-logic&quot;&gt;Homework 3: Logic and Probability Theory&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on October 20, 2024.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/5-data-vis-modeling-ml&quot;&gt;Homework 5: Data visualization, modeling, and classification&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on April 15, 2024.&lt;/p&gt;</content>
 </entry>
 
 
@@ -234,6 +215,39 @@ Which one of the observations would you trust? Why? Which principle of Probabili
 
 
 <entry>
+  <title type="html"><![CDATA[Homework 4: Logical Expressions and Probability Theory]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/4-logic-probability"/>
+  <id>http:/IDS2024S/homework/4-logic-probability</id>
+  <published>2024-04-01T00:00:00-05:00</published>
+  <updated>2024-04-01T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday April 10, 2024 at 4 PM&lt;/strong&gt;. This homework aims at giving you some experience with logical proofs and probability theory.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-nand-nor/logic/logic-nand-nor&quot; target=&quot;_blank&quot;&gt;Logic NAND and NOR&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-a-nand-equivalence/logic/logic-a-nand-equivalence&quot; target=&quot;_blank&quot;&gt;Logic NAND equivalence&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-implication-denial-equivalence/logic/logic-implication-denial-equivalence&quot; target=&quot;_blank&quot;&gt;Logic implication, denial, equivalence&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-boolean-algebra-venn-diagram/logic/logic-boolean-algebra-venn-diagram&quot; target=&quot;_blank&quot;&gt;Respond to this question&lt;/a&gt; &lt;strong&gt;only&lt;/strong&gt; for the cases of &lt;strong&gt;Distributivity&lt;/strong&gt; and &lt;strong&gt;Duality&lt;/strong&gt; identities.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-boolean-algebra-truth-table/logic/logic-boolean-algebra-truth-table&quot; target=&quot;_blank&quot;&gt;Respond to this question&lt;/a&gt; &lt;strong&gt;only&lt;/strong&gt; for the cases of &lt;strong&gt;Distributivity&lt;/strong&gt; and &lt;strong&gt;Duality&lt;/strong&gt; identities.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-correspondence-with-common-sense/probability-correspondence-with-common-sense&quot; target=&quot;_blank&quot;&gt;Probability Theory: correspondence with commonsense&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-desiderata/probability-desiderata&quot; target=&quot;_blank&quot;&gt;The fundamental desiderata of Probability Theory&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/4-logic-probability&quot;&gt;Homework 4: Logical Expressions and Probability Theory&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on April 01, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Quiz 3: Inference and Logic Fundamentals]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/quiz/3-logic"/>
   <id>http:/IDS2024S/quiz/3-logic</id>
@@ -340,6 +354,83 @@ Your answer won’t impact anything about your status in this course other than 
 
   
   &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/quiz/3-logic&quot;&gt;Quiz 3: Inference and Logic Fundamentals&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on March 27, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 3: Logic and Probability Theory]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/3-logic"/>
+  <id>http:/IDS2024S/homework/3-logic</id>
+  <published>2024-03-13T00:00:00-05:00</published>
+  <updated>2024-03-13T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2024S</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday March 27, 2024 at 4 PM&lt;/strong&gt;. This homework aims at giving you some experience with logical thinking and algebra.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the three pillars of Science.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name and briefly describe three different applications of Computational and Data Sciences.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-two-types-of-scientific-reasoning/logic/logic-two-types-of-scientific-reasoning&quot; target=&quot;_blank&quot;&gt;Name the two types of scientific reasoning&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide an example that shows logical implication does not necessarily imply physical causation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-policeman-jewelry-burglar/logic/logic-policeman-jewelry-burglar&quot; target=&quot;_blank&quot;&gt;Policeman, jewelry, and burglar&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-implication/logic/logic-implication&quot; target=&quot;_blank&quot;&gt;Logical Implication&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-product-denial/logic/logic-product-denial&quot; target=&quot;_blank&quot;&gt;Logical product denial&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-1d/logic-functions-1d&quot; target=&quot;_blank&quot;&gt;Logic functions with 1 input&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-2d/logic-functions-2d&quot; target=&quot;_blank&quot;&gt;Logic functions with 2 input&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-operations/logic-functions-operations&quot; target=&quot;_blank&quot;&gt;Logic functions in terms of logic functions&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-fundamental-operations/logic-fundamental-operations&quot; target=&quot;_blank&quot;&gt;The fundamental logical operators&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Consider the following series of questions:&lt;br /&gt;
+a.  What is the tiniest unit of information?&lt;br /&gt;
+    &lt;strong&gt;Hint&lt;/strong&gt;: This unit also represents the tiniest bit of information in computers.&lt;br /&gt;
+b.  Why does this amount of information represent the tiniest information unit?&lt;br /&gt;
+    &lt;strong&gt;Hint&lt;/strong&gt;: Use inductive logic with examples to explain your reasoning.&lt;br /&gt;
+    Imagine yourself as a single dot in empty space in a universe devoid of anything else.&lt;br /&gt;
+    Would you be able to tell your coordinates in the universe? &lt;br /&gt;
+    or whether you are moving? or at what constant speed?&lt;br /&gt;
+    Why?  What extra piece of information do you need to answer the above questions?&lt;br /&gt;
+c.  Let’s assign a box to this tiniest representable amount of information.&lt;br /&gt;
+    Obviously, we cannot represent much information with it. 
+    So, our remedy is to put multiple of these boxes to represent information about something.    &lt;br /&gt;
+    1.  How many different things can we assign to (or represent with) a collection of 1 such boxes?&lt;br /&gt;
+    2.  How many different things can we assign to (or represent with) a collection of 2 such boxes?&lt;br /&gt;
+    3.  How many different things can we assign to (or represent with) a collection of 3 such boxes?&lt;br /&gt;
+    &lt;strong&gt;Hint&lt;/strong&gt;: Draw binary trees as we described in class to justify your answers.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2024S/homework/3-logic&quot;&gt;Homework 3: Logic and Probability Theory&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2024S&quot;&gt;DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room&lt;/a&gt; on March 13, 2024.&lt;/p&gt;</content>
 </entry>
 
 

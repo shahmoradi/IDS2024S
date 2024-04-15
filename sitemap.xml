@@ -48,11 +48,7 @@
 
     
     <url>
-        <loc>/IDS2024S/homework/4-logic-probability</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/homework/3-logic</loc>
+        <loc>/IDS2024S/homework/5-data-vis-modeling-ml</loc>
     </url>
     
     <url>
@@ -64,7 +60,15 @@
     </url>
     
     <url>
+        <loc>/IDS2024S/homework/4-logic-probability</loc>
+    </url>
+    
+    <url>
         <loc>/IDS2024S/quiz/3-logic</loc>
+    </url>
+    
+    <url>
+        <loc>/IDS2024S/homework/3-logic</loc>
     </url>
     
     <url>

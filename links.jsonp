@@ -42,6 +42,11 @@ callback([
   } ,
 
   {
+    "text": "Homework 5: Data visualization, modeling, and classification",
+    "href": "/IDS2024S/homework/5-data-vis-modeling-ml"
+  } ,
+
+  {
     "text": "Homework 4: Logical Expressions and Probability Theory",
     "href": "/IDS2024S/homework/4-logic-probability"
   } ,
