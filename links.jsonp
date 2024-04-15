@@ -22,6 +22,11 @@ callback([
   } ,
 
   {
+    "text": "Lecture 5: Data Visualization Techniques",
+    "href": "/IDS2024S/lecture/5-data.vis"
+  } ,
+
+  {
     "text": "Lecture 4: Probability Theory",
     "href": "/IDS2024S/lecture/4-probability"
   } ,

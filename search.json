@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Lecture 5: Data Visualization Techniques",
+		  "category"   : "",
+		  "url"        : "/IDS2024S/lecture/5-data.vis",
+		  "date"       : "2024-04-15 00:00:00 -0500",
+		  "shortdate"  : "April 15, 2024"
+		} ,
+	
+		{
 		  "title"      : "Homework 5: Data visualization, modeling, and classification",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/homework/5-data-vis-modeling-ml",
