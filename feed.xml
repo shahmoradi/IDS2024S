@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-04-24T15:52:13-05:00</updated>
+<updated>2024-04-30T11:47:22-05:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -68,7 +68,7 @@ By the end of this lecture you will,&lt;/p&gt;
   <content type="html">
   
     
-&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday May 1, 2024 4:00 PM&lt;/strong&gt;. This homework aims at giving you some experience with the basic elements of 
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday May 3, 2024 4:00 PM&lt;/strong&gt;. This homework aims at giving you some experience with the basic elements of 
 Machine Learning data visualization concepts, modeling, and classification techniques.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -122,14 +122,16 @@ Ordered/Unordered?
     &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring&quot; target=&quot;_blank&quot;&gt;Best visualization coloring&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-temp-honolulu-duluth/vis-temp-honolulu-duluth-excel&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth via Excel&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-temp-honolulu-duluth/vis-temp-honolulu-duluth-excel&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth via Excel&lt;/a&gt; (&lt;strong&gt;Only parts 1, 2, 3&lt;/strong&gt;).&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-rain-sunshine/vis-excel-rain-sunlight&quot; target=&quot;_blank&quot;&gt;Visualizing the average precipitation of the US states vs. sunshine&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-axis-transformation/vis-excel-axis-transformation&quot; target=&quot;_blank&quot;&gt;Better visualizations through axes transformations&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-bayes-rule-proof-venn-disgram/probability-bayes-rule-proof-venn-disgram&quot; target=&quot;_blank&quot;&gt;The proof of Bayes’ Rule via Venn diagram&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-schools-of-thought/probability-schools-of-thought&quot; target=&quot;_blank&quot;&gt;The major schools of thought in Probability Theory&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-excel/regression-predicting-future-global-land-temperature-excel&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the global land temperature of Earth in 2050 from the past data: Choosing the best model&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Extra Credit&lt;/strong&gt;: &lt;a href=&quot;https://www.cdslab.org/recipes/programming/puzzle-how-many-animals-in-pond/puzzle-how-many-animals-in-pond&quot; target=&quot;_blank&quot;&gt;Puzzle: What living creatures do you see?&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Extra Credit&lt;/strong&gt;: &lt;a href=&quot;https://www.cdslab.org/recipes/programming/puzzle-matchstick-equation/puzzle-matchstick-equation&quot; target=&quot;_blank&quot;&gt;Puzzle: Matchstick Wrong Equation&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
