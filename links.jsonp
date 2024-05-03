@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 5: Data Visualization",
+    "href": "/IDS2024S/quiz/data-vis"
+  } ,
+
+  {
     "text": "Quiz 4: Logic and probability theory",
     "href": "/IDS2024S/quiz/4-logic-probability"
   } ,
@@ -69,6 +74,11 @@ callback([
   {
     "text": "Homework 1: Version Control Using Git and Github",
     "href": "/IDS2024S/homework/1-vcs"
+  } ,
+
+  {
+    "text": "Final Exam",
+    "href": "/IDS2024S/exam/1-final"
   } ,
 
   {

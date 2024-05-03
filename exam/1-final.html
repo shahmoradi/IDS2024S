@@ -11,7 +11,7 @@
 -->
 
 <meta charset="utf-8">
-<title>ANNOUNCEMENT 1: ASSESSING YOUR PROGRAMMING KNOWLEDGE AND INTERESTS &vert; DATA 1301 - SPRING 2024 - MW 16:00-17:20 - PKH 103 / MICROSOFT TEAMS VIRTUAL ROOM</title>
+<title>FINAL EXAM &vert; DATA 1301 - SPRING 2024 - MW 16:00-17:20 - PKH 103 / MICROSOFT TEAMS VIRTUAL ROOM</title>
 <meta name="description" content="Introduction to Data Science">
 <meta name="keywords" content="">
 
@@ -20,9 +20,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Announcement 1: Assessing your programming knowledge and interests">
+<meta property="og:title" content="Final Exam">
 <meta property="og:description" content="Introduction to Data Science">
-<meta property="og:url" content="/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests">
+<meta property="og:url" content="/IDS2024S/exam/1-final">
 <meta property="og:site_name" content="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room">
 <meta property="og:image" content="/IDS2024S/images/">
 
@@ -30,7 +30,7 @@
 
 
 
-<link rel="canonical" href="/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests">
+<link rel="canonical" href="/IDS2024S/exam/1-final">
 <!-- <link href="/IDS2024S/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 1301 - Spring 2024 - MW 16:00-17:20 - PKH 103 / Microsoft Teams Virtual Room Feed"> -->
 
 
@@ -130,8 +130,8 @@ MathJax.Hub.Queue(function() {
                 <div class="notepad-post-title-simple row">
                     <div class="small-12 columns">
                         <div class="notepad-post-meta-simple">
-                            <h2>Announcement 1: Assessing your programming knowledge and interests</h2>
-                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2024-01-17T00:00:00-06:00">17 Jan 2024</time></strong></p>
+                            <h2>Final Exam</h2>
+                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2024-05-03T00:00:00-05:00">03 May 2024</time></strong></p>
                         </div>
                     </div>
                 </div>
@@ -141,21 +141,131 @@ MathJax.Hub.Queue(function() {
             <article class="notepad-post-content post tag-simple">
         
             <div style="text-align:justify;">
-                <p>The goal of this survey is to assess your prior programming experience and to identify the favorite programming language for this class, as well as the language that your advisor deems essential for your research. 
-Ask Amir to send you a link to the survey if you have not already received it.</p>
+                <!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target="_blank"}.
+
+The following figure illustrates the grade distribution for this quiz.
+<figure>
+    <img src="/IDS2024S/quiz/gradeDist/gradeHistQuiz1.png" width="700">
+    <figcaption style="text-align:center">
+        Maximum possible points is 1.
+    </figcaption>
+</figure>
+[](){:target="_blank"}
+1.  How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot like [this one](https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/wordFreq.png){:target="_blank"}?
+1.  What is the major difference between the DBSCAN and Kmeans clustering algorithm? (naming one or two differences is enough)  
+1.  What are the major differences between the supervised and unsupervised learning algorithms?  
+1.  Name (at least) three types of clustering techniques.  
+-->
+
+<p>This is the final exam of DATA 1301.<br />
+Create a folder named <code>exam/final/</code> in the root directory of your GitHub repository for this course (if you have not done so already as part of HW 1).<br />
+Write down all of your answers in <code>README.md</code> file inside this <code>exam</code> folder.<br />
+Once done, push all the changes and new additions to your project to your GitHub repository for this course.</p>
+
+<hr />
+<hr />
 
 <p><br /></p>
+<ol>
+  <li>
+    <p>What is the difference between model validation and calibration?</p>
+  </li>
+  <li>
+    <p>what are aesthetics in data visualization? Name a few aesthetics that can appear in a data visualization.</p>
+  </li>
+  <li>
+    <p><a href="https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring" target="_blank">Best visualization coloring</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://www.cdslab.org/recipes/programming/vis-colorscales/vis-colorscales" target="_blank">Visualization color scales</a>.<br />
+What is each color-scale good for in Data Science?</p>
+  </li>
+  <li>
+    <p>Name the three pillars of science.</p>
+  </li>
+  <li>
+    <p>Is logical implication the same as physical causation? Explain with a real-world example.</p>
+  </li>
+  <li>Suppose we have fit the following red-line to the following blue dataset representing the global temperature increase of Earth over the past centuries.<br />
+<img src="https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-maxlikelihood/GlobalLandTemperatureAnomaly2050.png" alt="global land temperature of Earth" />
+    <ol>
+      <li>
+        <p>Is this visually a good fit in your opinion? Why?</p>
+      </li>
+      <li>
+        <p>What type of uncertainty dominates this dataset in the early years (before 1850)?</p>
+      </li>
+      <li>
+        <p>Is the trend seen in this dataset an example of positive correlation or negative correlation?</p>
+      </li>
+      <li>
+        <p>Could this dataset be classified as timeseries data? Why?</p>
+      </li>
+      <li>
+        <p>Download <a href="https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-excel/1880_2020.csv">this dataset</a> visualized above.<br />
+Then, open the file in Excel and compute the average temperature anomaly over all dates available in the file and report the single average value here.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Which school(s) of probability theory allow incorporation of expert (prior) knowledge in scientific inference?</p>
+  </li>
+  <li>
+    <p>When data is scarce, which school of probability theory is the most useful for scientific inference?</p>
+  </li>
+  <li>
+    <p>Which school of thought in Probability Theory cannot define or discuss the probability of existence of God? Why?</p>
+  </li>
+  <li>
+    <p><a href="https://www.cdslab.org/recipes/programming/vis-graph-wrong/vis-graph-wrong" target="_blank">A wrong visualization</a>.</p>
+  </li>
+  <li>
+    <p>Why is everything represented by integers in computers?</p>
+  </li>
+  <li>
+    <p>Name an ancestor programming language of C.</p>
+  </li>
+  <li>
+    <p>Name the first high-level programming language in computer history.</p>
+  </li>
+  <li>
+    <p>Recall the <strong>Boolean algebra’s fundamental identities</strong> from our lecture notes. Show that,<br />
+<br />
+\(\overline{C(A + B)} \equiv \overline{C} + \overline{A} ~ \overline{B}\)</p>
+  </li>
+  <li>
+    <p>Show via a Venn Diagram or a Truth Table, or explain by a logical argument that $(A \Rightarrow B) ~ \mathbf{\equiv} ~ (\overline{B} \Rightarrow \overline{A})$.
+<strong>Hint</strong>. This is a very simple question. Recall what <em>logical implication</em> means in terms of a Venn diagram. 
+How does $A$ look relative to $B$? Does the same also hold for $\overline{B}$ relative to $\overline{A}$?</p>
+  </li>
+  <li>
+    <p>Name the two different categories of logical reasoning and provide and example of each class.</p>
+  </li>
+  <li>
+    <p>What does it mean if two Boolean propositions are equal?</p>
+  </li>
+  <li>
+    <p>Show, via Venn diagrams, that $\overline{AB} \not\equiv \overline{A}~\overline{B}$.</p>
+  </li>
+  <li>Can we represent all real numbers in computers?</li>
+  <li>Consider the following summation:<br />
+\(S = 3 + 6 + 9 + \ldots + 93 + 96 + 99 ~.\)<br />
+What is the value of S? Explain your novel strategy to get your answer.<br />
+(<strong>Hint</strong>: There are $33$ numbers in the summation.)</li>
+</ol>
+
 
             </div>
         </article>
         <div class="cf"></div>
 <div class="row text-center">
     <section class="notepad-post-share">
-        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Announcement 1: Assessing your programming knowledge and interests&quot;%20/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests%20via%20&#64;"
+        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Final Exam&quot;%20/IDS2024S/exam/1-final%20via%20&#64;"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
             <i class="fa fa-twitter"></i>
         </a>
-        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests"
+        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/IDS2024S/exam/1-final"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
             <i class="fa fa-facebook"></i>
         </a>
