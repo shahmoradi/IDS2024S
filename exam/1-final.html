@@ -170,89 +170,182 @@ Once done, push all the changes and new additions to your project to your GitHub
 <ol>
   <li>
     <p>What is the difference between model validation and calibration?</p>
+
+    <p><strong>Answer:</strong><br />
+Model calibration aims to find the unknown parameters of models.<br />
+Model validation aims to validate the <em>calibrated</em> model against new independent data.</p>
   </li>
   <li>
     <p>what are aesthetics in data visualization? Name a few aesthetics that can appear in a data visualization.</p>
+
+    <p><strong>Answer:</strong><br />
+All data visualizations map data values into quantifiable features of the resulting graphic. We refer to these features as aesthetics.<br />
+Examples include: position, shape, color, size, line width, line type, ….</p>
   </li>
   <li>
     <p><a href="https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring" target="_blank">Best visualization coloring</a>.</p>
+
+    <p><strong>Answer:</strong><br />
+The second one is more appropriate because certain color-blinded people cannot distinguish red and green colors from each other.</p>
   </li>
   <li>
     <p><a href="https://www.cdslab.org/recipes/programming/vis-colorscales/vis-colorscales" target="_blank">Visualization color scales</a>.<br />
 What is each color-scale good for in Data Science?</p>
+
+    <p><strong>Answer:</strong><br />
+a)  Qualitative color-scale: A means to distinguish discrete items or groups that do not have an intrinsic order, such as different countries on a map or different manufacturers of a certain product.<br />
+b)  Color can also be used to represent data values, such as income, temperature, or speed. In this case, we use a sequential color scale. Such a scale contains a sequence of colors that clearly indicate (i) which values are larger or smaller than which other ones and (ii) how distant two specific values are from each other. The second point implies that the color scale needs to be perceived to vary uniformly across its entire range.<br />
+c)  In some cases, we need to visualize the deviation of data values in one of two directions relative to a neutral midpoint. One straightforward example is a dataset containing both positive and negative numbers. We may want to show those with different colors, so that it is immediately obvious whether a value is positive or negative as well as how far in either direction it deviates from zero. The appropriate color scale in this situation is a diverging color scale.<br />
+d)  Color can also be an effective tool to highlight specific elements in the data. There may be specific categories or values in the dataset that carry key information about the story we want to tell, and we can strengthen the story by emphasizing the relevant figure elements to the reader. An easy way to achieve this emphasis is to color these figure elements in a color or set of colors that vividly stand out against the rest of the figure. This effect can be achieved with accent color scales, which are color scales that contain both a set of subdued colors and a matching set of stronger, darker, and/or more saturated colors.</p>
   </li>
   <li>
     <p>Name the three pillars of science.</p>
+
+    <p><strong>Answer:</strong><br />
+Theory, Experiment, Computation.</p>
   </li>
   <li>
     <p>Is logical implication the same as physical causation? Explain with a real-world example.</p>
+
+    <p><strong>Answer:</strong><br />
+No. If it is rainy, then it is cloudy, but rain does not cause clouds.</p>
   </li>
   <li>Suppose we have fit the following red-line to the following blue dataset representing the global temperature increase of Earth over the past centuries.<br />
 <img src="https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-maxlikelihood/GlobalLandTemperatureAnomaly2050.png" alt="global land temperature of Earth" />
     <ol>
       <li>
         <p>Is this visually a good fit in your opinion? Why?</p>
+
+        <p><strong>Answer:</strong><br />
+No. It is very bad fit to the early years of data.</p>
       </li>
       <li>
         <p>What type of uncertainty dominates this dataset in the early years (before 1850)?</p>
+
+        <p><strong>Answer:</strong><br />
+Epistemic (due to measurement and instrument uncertainties).</p>
       </li>
       <li>
         <p>Is the trend seen in this dataset an example of positive correlation or negative correlation?</p>
+
+        <p><strong>Answer:</strong><br />
+positive.<br />
+Because anomaly increases with temperature.</p>
       </li>
       <li>
         <p>Could this dataset be classified as timeseries data? Why?</p>
+
+        <p><strong>Answer:</strong><br />
+Yes, because it is a temperature as a function of time.</p>
       </li>
       <li>
         <p>Download <a href="https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-excel/1880_2020.csv">this dataset</a> visualized above.<br />
 Then, open the file in Excel and compute the average temperature anomaly over all dates available in the file and report the single average value here.</p>
+
+        <p><strong>Answer:</strong><br />
+0.070925267</p>
       </li>
     </ol>
   </li>
   <li>
     <p>Which school(s) of probability theory allow incorporation of expert (prior) knowledge in scientific inference?</p>
+
+    <p><strong>Answer:</strong><br />
+Bayesian.</p>
   </li>
   <li>
     <p>When data is scarce, which school of probability theory is the most useful for scientific inference?</p>
+
+    <p><strong>Answer:</strong><br />
+Bayesian.</p>
   </li>
   <li>
     <p>Which school of thought in Probability Theory cannot define or discuss the probability of existence of God? Why?</p>
+
+    <p><strong>Answer:</strong><br />
+Frequentist.<br />
+Because it defines probability as the relative occurrence of phenomena.<br />
+God is not a countable concept.</p>
   </li>
   <li>
     <p><a href="https://www.cdslab.org/recipes/programming/vis-graph-wrong/vis-graph-wrong" target="_blank">A wrong visualization</a>.</p>
+
+    <p><strong>Answer:</strong><br />
+Age cannot be negative.</p>
   </li>
   <li>
     <p>Why is everything represented by integers in computers?</p>
+
+    <p><strong>Answer:</strong><br />
+Because computers can only work with the presence or absence of electric current for signaling.</p>
   </li>
   <li>
     <p>Name an ancestor programming language of C.</p>
+
+    <p><strong>Answer:</strong><br />
+B.</p>
   </li>
   <li>
     <p>Name the first high-level programming language in computer history.</p>
+
+    <p><strong>Answer:</strong><br />
+Fortran.</p>
   </li>
   <li>
     <p>Recall the <strong>Boolean algebra’s fundamental identities</strong> from our lecture notes. Show that,<br />
 <br />
 \(\overline{C(A + B)} \equiv \overline{C} + \overline{A} ~ \overline{B}\)</p>
+
+    <p><strong>Answer:</strong><br />
+See the the lecture notes.</p>
   </li>
   <li>
     <p>Show via a Venn Diagram or a Truth Table, or explain by a logical argument that $(A \Rightarrow B) ~ \mathbf{\equiv} ~ (\overline{B} \Rightarrow \overline{A})$.
 <strong>Hint</strong>. This is a very simple question. Recall what <em>logical implication</em> means in terms of a Venn diagram. 
 How does $A$ look relative to $B$? Does the same also hold for $\overline{B}$ relative to $\overline{A}$?</p>
+
+    <p><strong>Answer:</strong>
+If $A$ yields $B$, then $A$ must be within the Venn circle of $B$.
+Therefore, $\overline{B}$ must be within the Venn area corresponding $\overline{A}$ or as is often said, $\overline{B}$ must be a subset of $\overline{A}$.
+This is the same as saying $\overline{B} \Rightarrow \overline{A}$.</p>
   </li>
   <li>
     <p>Name the two different categories of logical reasoning and provide and example of each class.</p>
+
+    <p><strong>Answer:</strong></p>
+    <ol>
+      <li>Deductive reasoning: If A is true, then B is true.</li>
+      <li>Plausible reasoning: If A is true, then B is more likely to be true.</li>
+    </ol>
   </li>
   <li>
     <p>What does it mean if two Boolean propositions are equal?</p>
+
+    <p><strong>Answer:</strong><br />
+It means they have the same truth value.</p>
   </li>
   <li>
     <p>Show, via Venn diagrams, that $\overline{AB} \not\equiv \overline{A}~\overline{B}$.</p>
+
+    <p><strong>Answer:</strong><br />
+See the the lecture notes.</p>
   </li>
   <li>Can we represent all real numbers in computers?</li>
-  <li>Consider the following summation:<br />
+  <li>
+    <p>Consider the following summation:<br />
 \(S = 3 + 6 + 9 + \ldots + 93 + 96 + 99 ~.\)<br />
 What is the value of S? Explain your novel strategy to get your answer.<br />
-(<strong>Hint</strong>: There are $33$ numbers in the summation.)</li>
+(<strong>Hint</strong>: There are $33$ numbers in the summation.)</p>
+
+    <p><strong>Answer:</strong>  <br />
+\(\begin{eqnarray*}
+        S 
+        &amp;=&amp; 3 + 6 + 9 + \ldots + 93 + 96 + 99 ~, \\
+        &amp;=&amp; 3 \times (1 + 2 + 3 + \ldots + 33) ~, \\
+        &amp;=&amp; 3 \times frac{34 \times 33}{2} ~, \\
+        &amp;=&amp; 1683 ~.\\
+    \end{eqnarray*}\)</p>
+  </li>
 </ol>
 
 
@@ -321,8 +414,8 @@ What is the value of S? Explain your novel strategy to get your answer.<br />
 
     <footer class="notepad-site-footer">
     <div class="copyright">
-         <!-- <section>Last updated 2024 / 05 / 03</section></br> -->
-         <section>Last updated Friday, 03 May 2024 at 02:02 PM CST</section></br>
+         <!-- <section>Last updated 2024 / 05 / 05</section></br> -->
+         <section>Last updated Sunday, 05 May 2024 at 11:22 PM CST</section></br>
          <section>All content exclusively maintained by <a href=https://www.shahmoradi.org target="_blank">Amir Shahmoradi</a> <!-- &copy;--> </section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>
