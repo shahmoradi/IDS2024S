@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2024S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2024S/" />
-<updated>2024-06-01T22:16:51-05:00</updated>
+<updated>2024-06-16T18:35:31-04:00</updated>
 <id>http:/IDS2024S/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -20,8 +20,8 @@
   <title type="html"><![CDATA[Final Exam]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/exam/1-final"/>
   <id>http:/IDS2024S/exam/1-final</id>
-  <published>2024-05-03T00:00:00-05:00</published>
-  <updated>2024-05-03T00:00:00-05:00</updated>
+  <published>2024-05-03T00:00:00-04:00</published>
+  <updated>2024-05-03T00:00:00-04:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -154,8 +154,8 @@ What is the value of S? Explain your novel strategy to get your answer.&lt;br /&
   <title type="html"><![CDATA[Quiz 5: Data Visualization]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/quiz/data-vis"/>
   <id>http:/IDS2024S/quiz/data-vis</id>
-  <published>2024-04-29T00:00:00-05:00</published>
-  <updated>2024-04-29T00:00:00-05:00</updated>
+  <published>2024-04-29T00:00:00-04:00</published>
+  <updated>2024-04-29T00:00:00-04:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -257,7 +257,7 @@ Describe an example dataset that could be classified as either numerical or cate
   <title type="html"><![CDATA[Lecture 5: Data Visualization Techniques]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/lecture/5-data.vis"/>
   <id>http:/IDS2024S/lecture/5-data.vis</id>
-  <published>2024-04-15T00:00:00-05:00</published>
+  <published>2024-04-15T00:00:00-04:00</published>
   <updated>0000-00-00T00:00:00-00:00</updated>
   
   <author>
@@ -294,8 +294,8 @@ By the end of this lecture you will,&lt;/p&gt;
   <title type="html"><![CDATA[Homework 5: Data visualization, modeling, and classification]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/5-data-vis-modeling-ml"/>
   <id>http:/IDS2024S/homework/5-data-vis-modeling-ml</id>
-  <published>2024-04-15T00:00:00-05:00</published>
-  <updated>2024-04-15T00:00:00-05:00</updated>
+  <published>2024-04-15T00:00:00-04:00</published>
+  <updated>2024-04-15T00:00:00-04:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -382,8 +382,8 @@ Ordered/Unordered?
   <title type="html"><![CDATA[Quiz 4: Logic and probability theory]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/quiz/4-logic-probability"/>
   <id>http:/IDS2024S/quiz/4-logic-probability</id>
-  <published>2024-04-10T00:00:00-05:00</published>
-  <updated>2024-04-10T00:00:00-05:00</updated>
+  <published>2024-04-10T00:00:00-04:00</published>
+  <updated>2024-04-10T00:00:00-04:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -463,7 +463,7 @@ Which one of the observations would you trust? Why? Which principle of Probabili
   <title type="html"><![CDATA[Lecture 4: Probability Theory]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/lecture/4-probability"/>
   <id>http:/IDS2024S/lecture/4-probability</id>
-  <published>2024-04-01T00:00:00-05:00</published>
+  <published>2024-04-01T00:00:00-04:00</published>
   <updated>0000-00-00T00:00:00-00:00</updated>
   
   <author>
@@ -489,8 +489,8 @@ Which one of the observations would you trust? Why? Which principle of Probabili
   <title type="html"><![CDATA[Homework 4: Logical Expressions and Probability Theory]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/4-logic-probability"/>
   <id>http:/IDS2024S/homework/4-logic-probability</id>
-  <published>2024-04-01T00:00:00-05:00</published>
-  <updated>2024-04-01T00:00:00-05:00</updated>
+  <published>2024-04-01T00:00:00-04:00</published>
+  <updated>2024-04-01T00:00:00-04:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -522,8 +522,8 @@ Which one of the observations would you trust? Why? Which principle of Probabili
   <title type="html"><![CDATA[Quiz 3: Inference and Logic Fundamentals]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/quiz/3-logic"/>
   <id>http:/IDS2024S/quiz/3-logic</id>
-  <published>2024-03-27T00:00:00-05:00</published>
-  <updated>2024-03-27T00:00:00-05:00</updated>
+  <published>2024-03-27T00:00:00-04:00</published>
+  <updated>2024-03-27T00:00:00-04:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -632,8 +632,8 @@ Your answer won’t impact anything about your status in this course other than 
   <title type="html"><![CDATA[Homework 3: Logic and Probability Theory]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/3-logic"/>
   <id>http:/IDS2024S/homework/3-logic</id>
-  <published>2024-03-13T00:00:00-05:00</published>
-  <updated>2024-03-13T00:00:00-05:00</updated>
+  <published>2024-03-13T00:00:00-04:00</published>
+  <updated>2024-03-13T00:00:00-04:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -709,7 +709,7 @@ c.  Let’s assign a box to this tiniest representable amount of information.&lt
   <title type="html"><![CDATA[Lecture 3: Logic and Probability Theory]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/lecture/3-logic.probability"/>
   <id>http:/IDS2024S/lecture/3-logic.probability</id>
-  <published>2024-03-04T00:00:00-06:00</published>
+  <published>2024-03-04T00:00:00-05:00</published>
   <updated>0000-00-00T00:00:00-00:00</updated>
   
   <author>
@@ -735,8 +735,8 @@ c.  Let’s assign a box to this tiniest representable amount of information.&lt
   <title type="html"><![CDATA[Quiz 2: Programming History]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/quiz/2-prog-hist"/>
   <id>http:/IDS2024S/quiz/2-prog-hist</id>
-  <published>2024-02-28T00:00:00-06:00</published>
-  <updated>2024-02-28T00:00:00-06:00</updated>
+  <published>2024-02-28T00:00:00-05:00</published>
+  <updated>2024-02-28T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -893,7 +893,7 @@ What is the value of S? Explain your novel strategy to get your answer.&lt;/p&gt
   <title type="html"><![CDATA[Lecture 2: Scientific Computing - A Brief History and the State of the Art]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/lecture/2-programming-history"/>
   <id>http:/IDS2024S/lecture/2-programming-history</id>
-  <published>2024-02-22T00:00:00-06:00</published>
+  <published>2024-02-22T00:00:00-05:00</published>
   <updated>0000-00-00T00:00:00-00:00</updated>
   
   <author>
@@ -922,8 +922,8 @@ languages and their mutual interaction with rapid developments in natural scienc
   <title type="html"><![CDATA[Homework 2: Programming History]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/2-programming-history"/>
   <id>http:/IDS2024S/homework/2-programming-history</id>
-  <published>2024-02-19T00:00:00-06:00</published>
-  <updated>2024-02-19T00:00:00-06:00</updated>
+  <published>2024-02-19T00:00:00-05:00</published>
+  <updated>2024-02-19T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -1067,8 +1067,8 @@ How many years will it take to produce the required amount of rice grains to pla
   <title type="html"><![CDATA[Quiz 1: Version Control Systems]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/quiz/1-intro-vcs"/>
   <id>http:/IDS2024S/quiz/1-intro-vcs</id>
-  <published>2024-02-12T00:00:00-06:00</published>
-  <updated>2024-02-12T00:00:00-06:00</updated>
+  <published>2024-02-12T00:00:00-05:00</published>
+  <updated>2024-02-12T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -1241,7 +1241,7 @@ Which one is more appropriate to use in your GitHub projects? Why?&lt;/p&gt;
   <title type="html"><![CDATA[Lecture 1: Scientific Computing - A Brief History and the State of the Art]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/lecture/1-data-science"/>
   <id>http:/IDS2024S/lecture/1-data-science</id>
-  <published>2024-01-22T00:00:00-06:00</published>
+  <published>2024-01-22T00:00:00-05:00</published>
   <updated>0000-00-00T00:00:00-00:00</updated>
   
   <author>
@@ -1269,8 +1269,8 @@ languages and their mutual interaction with rapid developments in natural scienc
   <title type="html"><![CDATA[Homework 1: Version Control Using Git and Github]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/homework/1-vcs"/>
   <id>http:/IDS2024S/homework/1-vcs</id>
-  <published>2024-01-22T00:00:00-06:00</published>
-  <updated>2024-01-22T00:00:00-06:00</updated>
+  <published>2024-01-22T00:00:00-05:00</published>
+  <updated>2024-01-22T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -1317,8 +1317,8 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
   <title type="html"><![CDATA[Announcement 1: Assessing your programming knowledge and interests]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests"/>
   <id>http:/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests</id>
-  <published>2024-01-17T00:00:00-06:00</published>
-  <updated>2024-01-17T00:00:00-06:00</updated>
+  <published>2024-01-17T00:00:00-05:00</published>
+  <updated>2024-01-17T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>
@@ -1341,8 +1341,8 @@ Ask Amir to send you a link to the survey if you have not already received it.&l
   <title type="html"><![CDATA[Announcement 0: Student-professor connection day]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2024S/announcement/0-student-professor-connection-day"/>
   <id>http:/IDS2024S/announcement/0-student-professor-connection-day</id>
-  <published>2024-01-17T00:00:00-06:00</published>
-  <updated>2024-01-17T00:00:00-06:00</updated>
+  <published>2024-01-17T00:00:00-05:00</published>
+  <updated>2024-01-17T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2024S</uri>

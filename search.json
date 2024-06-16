@@ -4,7 +4,7 @@
 		  "title"      : "Final Exam",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/exam/1-final",
-		  "date"       : "2024-05-03 00:00:00 -0500",
+		  "date"       : "2024-05-03 00:00:00 -0400",
 		  "shortdate"  : "May 03, 2024"
 		} ,
 	
@@ -12,7 +12,7 @@
 		  "title"      : "Quiz 5: Data Visualization",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/quiz/data-vis",
-		  "date"       : "2024-04-29 00:00:00 -0500",
+		  "date"       : "2024-04-29 00:00:00 -0400",
 		  "shortdate"  : "April 29, 2024"
 		} ,
 	
@@ -20,7 +20,7 @@
 		  "title"      : "Lecture 5: Data Visualization Techniques",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/lecture/5-data.vis",
-		  "date"       : "2024-04-15 00:00:00 -0500",
+		  "date"       : "2024-04-15 00:00:00 -0400",
 		  "shortdate"  : "April 15, 2024"
 		} ,
 	
@@ -28,7 +28,7 @@
 		  "title"      : "Homework 5: Data visualization, modeling, and classification",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/homework/5-data-vis-modeling-ml",
-		  "date"       : "2024-04-15 00:00:00 -0500",
+		  "date"       : "2024-04-15 00:00:00 -0400",
 		  "shortdate"  : "April 15, 2024"
 		} ,
 	
@@ -36,7 +36,7 @@
 		  "title"      : "Quiz 4: Logic and probability theory",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/quiz/4-logic-probability",
-		  "date"       : "2024-04-10 00:00:00 -0500",
+		  "date"       : "2024-04-10 00:00:00 -0400",
 		  "shortdate"  : "April 10, 2024"
 		} ,
 	
@@ -44,7 +44,7 @@
 		  "title"      : "Lecture 4: Probability Theory",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/lecture/4-probability",
-		  "date"       : "2024-04-01 00:00:00 -0500",
+		  "date"       : "2024-04-01 00:00:00 -0400",
 		  "shortdate"  : "April 01, 2024"
 		} ,
 	
@@ -52,7 +52,7 @@
 		  "title"      : "Homework 4: Logical Expressions and Probability Theory",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/homework/4-logic-probability",
-		  "date"       : "2024-04-01 00:00:00 -0500",
+		  "date"       : "2024-04-01 00:00:00 -0400",
 		  "shortdate"  : "April 01, 2024"
 		} ,
 	
@@ -60,7 +60,7 @@
 		  "title"      : "Quiz 3: Inference and Logic Fundamentals",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/quiz/3-logic",
-		  "date"       : "2024-03-27 00:00:00 -0500",
+		  "date"       : "2024-03-27 00:00:00 -0400",
 		  "shortdate"  : "March 27, 2024"
 		} ,
 	
@@ -68,7 +68,7 @@
 		  "title"      : "Homework 3: Logic and Probability Theory",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/homework/3-logic",
-		  "date"       : "2024-03-13 00:00:00 -0500",
+		  "date"       : "2024-03-13 00:00:00 -0400",
 		  "shortdate"  : "March 13, 2024"
 		} ,
 	
@@ -76,7 +76,7 @@
 		  "title"      : "Lecture 3: Logic and Probability Theory",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/lecture/3-logic.probability",
-		  "date"       : "2024-03-04 00:00:00 -0600",
+		  "date"       : "2024-03-04 00:00:00 -0500",
 		  "shortdate"  : "March 04, 2024"
 		} ,
 	
@@ -84,7 +84,7 @@
 		  "title"      : "Quiz 2: Programming History",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/quiz/2-prog-hist",
-		  "date"       : "2024-02-28 00:00:00 -0600",
+		  "date"       : "2024-02-28 00:00:00 -0500",
 		  "shortdate"  : "February 28, 2024"
 		} ,
 	
@@ -92,7 +92,7 @@
 		  "title"      : "Lecture 2: Scientific Computing - A Brief History and the State of the Art",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/lecture/2-programming-history",
-		  "date"       : "2024-02-22 00:00:00 -0600",
+		  "date"       : "2024-02-22 00:00:00 -0500",
 		  "shortdate"  : "February 22, 2024"
 		} ,
 	
@@ -100,7 +100,7 @@
 		  "title"      : "Homework 2: Programming History",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/homework/2-programming-history",
-		  "date"       : "2024-02-19 00:00:00 -0600",
+		  "date"       : "2024-02-19 00:00:00 -0500",
 		  "shortdate"  : "February 19, 2024"
 		} ,
 	
@@ -108,7 +108,7 @@
 		  "title"      : "Quiz 1: Version Control Systems",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/quiz/1-intro-vcs",
-		  "date"       : "2024-02-12 00:00:00 -0600",
+		  "date"       : "2024-02-12 00:00:00 -0500",
 		  "shortdate"  : "February 12, 2024"
 		} ,
 	
@@ -116,7 +116,7 @@
 		  "title"      : "Lecture 1: Scientific Computing - A Brief History and the State of the Art",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/lecture/1-data-science",
-		  "date"       : "2024-01-22 00:00:00 -0600",
+		  "date"       : "2024-01-22 00:00:00 -0500",
 		  "shortdate"  : "January 22, 2024"
 		} ,
 	
@@ -124,7 +124,7 @@
 		  "title"      : "Homework 1: Version Control Using Git and Github",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/homework/1-vcs",
-		  "date"       : "2024-01-22 00:00:00 -0600",
+		  "date"       : "2024-01-22 00:00:00 -0500",
 		  "shortdate"  : "January 22, 2024"
 		} ,
 	
@@ -132,7 +132,7 @@
 		  "title"      : "Announcement 1: Assessing your programming knowledge and interests",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/announcement/1-assessing-your-programming-knowledge-and-interests",
-		  "date"       : "2024-01-17 00:00:00 -0600",
+		  "date"       : "2024-01-17 00:00:00 -0500",
 		  "shortdate"  : "January 17, 2024"
 		} ,
 	
@@ -140,7 +140,7 @@
 		  "title"      : "Announcement 0: Student-professor connection day",
 		  "category"   : "",
 		  "url"        : "/IDS2024S/announcement/0-student-professor-connection-day",
-		  "date"       : "2024-01-17 00:00:00 -0600",
+		  "date"       : "2024-01-17 00:00:00 -0500",
 		  "shortdate"  : "January 17, 2024"
 		} 
 	
