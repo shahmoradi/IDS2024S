@@ -48,23 +48,7 @@
 
     
     <url>
-        <loc>/IDS2024S/exam/1-final</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/quiz/data-vis</loc>
-    </url>
-    
-    <url>
         <loc>/IDS2024S/lecture/5-data.vis</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/homework/5-data-vis-modeling-ml</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/quiz/4-logic-probability</loc>
     </url>
     
     <url>
@@ -72,23 +56,7 @@
     </url>
     
     <url>
-        <loc>/IDS2024S/homework/4-logic-probability</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/quiz/3-logic</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/homework/3-logic</loc>
-    </url>
-    
-    <url>
         <loc>/IDS2024S/lecture/3-logic.probability</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/quiz/2-prog-hist</loc>
     </url>
     
     <url>
@@ -96,19 +64,7 @@
     </url>
     
     <url>
-        <loc>/IDS2024S/homework/2-programming-history</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/quiz/1-intro-vcs</loc>
-    </url>
-    
-    <url>
         <loc>/IDS2024S/lecture/1-data-science</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2024S/homework/1-vcs</loc>
     </url>
     
     <url>
